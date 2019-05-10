@@ -1,0 +1,147 @@
+/*
+ *      Copyright (c) 2007, an unpublished work by GrammaTech, Inc.
+ *                      ALL RIGHTS RESERVED
+ *
+ *      This software is furnished under a license and may be used and
+ *      copied only in accordance with the terms of such license and the
+ *      inclusion of the above copyright notice.  This software or any
+ *      other copies thereof may not be provided or otherwise made
+ *      available to any other person.  Title to and ownership of the
+ *      software is retained by GrammaTech, Inc.
+ */
+
+/* Include the normal ctype.h */
+#include_next <ctype.h>
+
+#ifndef _CTYPE_H_CSURF
+#define _CTYPE_H_CSURF
+
+/* Make the overrides that are necessary for modeling ctype.h. */
+#ifdef __cplusplus
+#define __CSURF_EXTERN_C extern "C"
+#else /* __cplusplus */
+#define __CSURF_EXTERN_C extern
+#endif /* __cplusplus */
+
+#ifdef __CSURF_THROW
+# error -- __CSURF_THROW is reserved for CodeSurfer internal use
+#endif /* __CSURF_THROW */
+
+/* g++ declares functions below with __THROW. We would get an
+   "omission of exception specification is incompatible with previous 
+   function" error from EDG if we don't do the same thing. */
+#ifdef __THROW
+# define __CSURF_THROW __THROW
+#else /* __THROW */
+# define __CSURF_THROW
+#endif /* __THROW */
+
+#if defined ( _WIN32 ) || defined( __CYGWIN__ )
+#define __CSURF_INCLUDE_CALLING_CONVENTION __cdecl
+#else
+#define __CSURF_INCLUDE_CALLING_CONVENTION
+#endif
+
+
+/* C Standard ones */
+#ifdef isalnum
+#hard_undef isalnum
+__CSURF_EXTERN_C int __CSURF_INCLUDE_CALLING_CONVENTION isalnum(int) __CSURF_THROW;
+#endif
+
+
+#ifdef isalpha
+#hard_undef isalpha
+__CSURF_EXTERN_C int __CSURF_INCLUDE_CALLING_CONVENTION isalpha(int) __CSURF_THROW;
+#endif
+
+
+#ifdef isblank
+#hard_undef isblank
+__CSURF_EXTERN_C int __CSURF_INCLUDE_CALLING_CONVENTION isblank(int) __CSURF_THROW;
+#endif
+
+
+#ifdef iscntrl
+#hard_undef iscntrl
+__CSURF_EXTERN_C int __CSURF_INCLUDE_CALLING_CONVENTION iscntrl(int) __CSURF_THROW;
+#endif
+
+
+#ifdef isdigit
+#hard_undef isdigit
+__CSURF_EXTERN_C int __CSURF_INCLUDE_CALLING_CONVENTION isdigit(int) __CSURF_THROW;
+#endif
+
+
+#ifdef isgraph
+#hard_undef isgraph
+__CSURF_EXTERN_C int __CSURF_INCLUDE_CALLING_CONVENTION isgraph(int) __CSURF_THROW;
+#endif
+
+
+#ifdef islower
+#hard_undef islower
+__CSURF_EXTERN_C int __CSURF_INCLUDE_CALLING_CONVENTION islower(int) __CSURF_THROW;
+#endif
+
+
+#ifdef isprint
+#hard_undef isprint
+__CSURF_EXTERN_C int __CSURF_INCLUDE_CALLING_CONVENTION isprint(int) __CSURF_THROW;
+#endif
+
+
+#ifdef ispunct
+#hard_undef ispunct
+__CSURF_EXTERN_C int __CSURF_INCLUDE_CALLING_CONVENTION ispunct(int) __CSURF_THROW;
+#endif
+
+
+#ifdef isspace
+#hard_undef isspace
+__CSURF_EXTERN_C int __CSURF_INCLUDE_CALLING_CONVENTION isspace(int) __CSURF_THROW;
+#endif
+
+
+#ifdef isupper
+#hard_undef isupper
+__CSURF_EXTERN_C int __CSURF_INCLUDE_CALLING_CONVENTION isupper(int) __CSURF_THROW;
+#endif
+
+
+#ifdef isxdigit
+#hard_undef isxdigit
+__CSURF_EXTERN_C int __CSURF_INCLUDE_CALLING_CONVENTION isxdigit(int) __CSURF_THROW;
+#endif
+
+
+#ifdef tolower
+#hard_undef tolower
+__CSURF_EXTERN_C int __CSURF_INCLUDE_CALLING_CONVENTION tolower(int) __CSURF_THROW;
+#endif
+
+
+#ifdef toupper
+#hard_undef toupper
+__CSURF_EXTERN_C int __CSURF_INCLUDE_CALLING_CONVENTION toupper(int) __CSURF_THROW;
+#endif
+
+/* GNU? ones */
+#ifdef isascii
+#hard_undef isascii
+__CSURF_EXTERN_C int __CSURF_INCLUDE_CALLING_CONVENTION isascii(int) __CSURF_THROW;
+#endif
+
+
+#ifdef toascii
+#hard_undef toascii
+__CSURF_EXTERN_C int __CSURF_INCLUDE_CALLING_CONVENTION toascii(int) __CSURF_THROW;
+#endif
+
+
+#undef __CSURF_INCLUDE_CALLING_CONVENTION
+#undef __CSURF_THROW
+#undef __CSURF_EXTERN_C
+
+#endif /* _CTYPE_H_CSURF */

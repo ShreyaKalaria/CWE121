@@ -1,0 +1,2 @@
+[decomp/ghidra_decompiled.c:4382]: (warning) %s in format string (no. 1) requires 'char *' but the argument type is 'signed long'.
+[decomp/ghidra_decompiled.c:4579]: (error) Shifting signed 32-bit value by 31 bits is undefined behaviour

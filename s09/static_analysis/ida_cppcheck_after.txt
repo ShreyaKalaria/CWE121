@@ -1,0 +1,10 @@
+[decomp/ida_decompiled.c:3150]: (warning) wprintf format string requires 0 parameters but 1 is given.
+[decomp/ida_decompiled.c:3157]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
+[decomp/ida_decompiled.c:3163]: (warning) %hd in format string (no. 1) requires 'short' but the argument type is 'unsigned int'.
+[decomp/ida_decompiled.c:3228]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
+[decomp/ida_decompiled.c:3228]: (warning) %d in format string (no. 2) requires 'int' but the argument type is 'unsigned int'.
+[decomp/ida_decompiled.c:332]: (error) Uninitialized variable: v3
+[decomp/ida_decompiled.c:374]: (error) Uninitialized variable: result
+[decomp/ida_decompiled.c:3141]: (error) Uninitialized variable: result
+[decomp/ida_decompiled.c:3151]: (error) Uninitialized variable: result
+(information) Cppcheck cannot find all the include files (use --check-config for details)

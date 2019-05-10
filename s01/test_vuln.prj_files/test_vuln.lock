@@ -1,0 +1,2 @@
+locked by khand/dev-sa-irdtrl-com PID 26708, on Wed Apr 10 07:25:12 2019
+/sa-tools/codesonar-5.0p0/codesonar/bin/codesonar test_vuln -codesonar-script /sa-tools/codesonar-5.0p0/codesonar/stk/CsonarLoader.stk 

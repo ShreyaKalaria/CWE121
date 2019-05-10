@@ -1,0 +1,13 @@
+[decomp/Decompiled.c:65995]: (warning) %s in format string (no. 1) requires 'char *' but the argument type is 'signed long'.
+[decomp/Decompiled.c:66192]: (error) Shifting signed 32-bit value by 31 bits is undefined behaviour
+[decomp/Decompiled.c:15227]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:18307]: (error) Uninitialized variable: extraout_RDX
+[decomp/Decompiled.c:24650]: (error) Uninitialized variable: extraout_RDX
+[decomp/Decompiled.c:31117]: (error) Uninitialized variable: extraout_RDX
+[decomp/Decompiled.c:35387]: (error) Uninitialized variable: extraout_RDX
+[decomp/Decompiled.c:35478]: (error) Uninitialized variable: extraout_RDX
+[decomp/Decompiled.c:36722]: (error) Uninitialized variable: extraout_RDX
+[decomp/Decompiled.c:39002]: (error) Uninitialized variable: extraout_RDX
+[decomp/Decompiled.c:39093]: (error) Uninitialized variable: extraout_RDX
+[decomp/Decompiled.c:58898]: (error) Uninitialized variable: extraout_RDX
+[decomp/Decompiled.c:63500]: (error) Uninitialized variable: extraout_RDX

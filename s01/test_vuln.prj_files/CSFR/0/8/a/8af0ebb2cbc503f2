@@ -1,0 +1,6 @@
+#ifdef _GLIBCXX_EXTERN_TEMPLATE
+#undef _GLIBCXX_EXTERN_TEMPLATE
+#endif
+#define _GLIBCXX_EXTERN_TEMPLATE 0
+
+#include_next <bits/c++config.h>

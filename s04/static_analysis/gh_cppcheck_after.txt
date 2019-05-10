@@ -1,0 +1,688 @@
+[decomp/ghidra_decompiled.c:5190] -> [decomp/ghidra_decompiled.c:5189]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:5191] -> [decomp/ghidra_decompiled.c:5189]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:5223] -> [decomp/ghidra_decompiled.c:5222]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:5224] -> [decomp/ghidra_decompiled.c:5222]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:5256] -> [decomp/ghidra_decompiled.c:5255]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:5257] -> [decomp/ghidra_decompiled.c:5255]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:9146] -> [decomp/ghidra_decompiled.c:9145]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:9147] -> [decomp/ghidra_decompiled.c:9145]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:9188] -> [decomp/ghidra_decompiled.c:9187]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:9189] -> [decomp/ghidra_decompiled.c:9187]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:9223] -> [decomp/ghidra_decompiled.c:9222]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:9224] -> [decomp/ghidra_decompiled.c:9222]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:10298] -> [decomp/ghidra_decompiled.c:10297]: (warning) Either the condition 'local_30<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:10299] -> [decomp/ghidra_decompiled.c:10297]: (warning) Either the condition 'local_30<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:10336] -> [decomp/ghidra_decompiled.c:10335]: (warning) Either the condition 'local_30<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:10337] -> [decomp/ghidra_decompiled.c:10335]: (warning) Either the condition 'local_30<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:12396] -> [decomp/ghidra_decompiled.c:12395]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:12397] -> [decomp/ghidra_decompiled.c:12395]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:12433] -> [decomp/ghidra_decompiled.c:12432]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:12434] -> [decomp/ghidra_decompiled.c:12432]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:13050] -> [decomp/ghidra_decompiled.c:13049]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:13051] -> [decomp/ghidra_decompiled.c:13049]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:13092] -> [decomp/ghidra_decompiled.c:13091]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:13093] -> [decomp/ghidra_decompiled.c:13091]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:13127] -> [decomp/ghidra_decompiled.c:13126]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:13128] -> [decomp/ghidra_decompiled.c:13126]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:18865] -> [decomp/ghidra_decompiled.c:18864]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:18866] -> [decomp/ghidra_decompiled.c:18864]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:18907] -> [decomp/ghidra_decompiled.c:18906]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:18908] -> [decomp/ghidra_decompiled.c:18906]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:18942] -> [decomp/ghidra_decompiled.c:18941]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:18943] -> [decomp/ghidra_decompiled.c:18941]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:20748] -> [decomp/ghidra_decompiled.c:20747]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:20749] -> [decomp/ghidra_decompiled.c:20747]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:20781] -> [decomp/ghidra_decompiled.c:20780]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:20782] -> [decomp/ghidra_decompiled.c:20780]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:21243] -> [decomp/ghidra_decompiled.c:21242]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:21244] -> [decomp/ghidra_decompiled.c:21242]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:21276] -> [decomp/ghidra_decompiled.c:21275]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:21277] -> [decomp/ghidra_decompiled.c:21275]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:21309] -> [decomp/ghidra_decompiled.c:21308]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:21310] -> [decomp/ghidra_decompiled.c:21308]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:24199] -> [decomp/ghidra_decompiled.c:24198]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:24200] -> [decomp/ghidra_decompiled.c:24198]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:24232] -> [decomp/ghidra_decompiled.c:24231]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:24233] -> [decomp/ghidra_decompiled.c:24231]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:25971] -> [decomp/ghidra_decompiled.c:25970]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:25972] -> [decomp/ghidra_decompiled.c:25970]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:26006] -> [decomp/ghidra_decompiled.c:26005]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:26007] -> [decomp/ghidra_decompiled.c:26005]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:26039] -> [decomp/ghidra_decompiled.c:26038]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:26040] -> [decomp/ghidra_decompiled.c:26038]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:31902] -> [decomp/ghidra_decompiled.c:31901]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:31903] -> [decomp/ghidra_decompiled.c:31901]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:31944] -> [decomp/ghidra_decompiled.c:31943]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:31945] -> [decomp/ghidra_decompiled.c:31943]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:31979] -> [decomp/ghidra_decompiled.c:31978]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:31980] -> [decomp/ghidra_decompiled.c:31978]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:32922] -> [decomp/ghidra_decompiled.c:32921]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:32923] -> [decomp/ghidra_decompiled.c:32921]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:32959] -> [decomp/ghidra_decompiled.c:32958]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:32960] -> [decomp/ghidra_decompiled.c:32958]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:39174] -> [decomp/ghidra_decompiled.c:39173]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_378[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:39175] -> [decomp/ghidra_decompiled.c:39173]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_378[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:39215] -> [decomp/ghidra_decompiled.c:39214]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_378[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:39216] -> [decomp/ghidra_decompiled.c:39214]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_378[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:40251] -> [decomp/ghidra_decompiled.c:40250]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:40252] -> [decomp/ghidra_decompiled.c:40250]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:40286] -> [decomp/ghidra_decompiled.c:40285]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:40287] -> [decomp/ghidra_decompiled.c:40285]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:40319] -> [decomp/ghidra_decompiled.c:40318]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:40320] -> [decomp/ghidra_decompiled.c:40318]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:40363] -> [decomp/ghidra_decompiled.c:40362]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:40364] -> [decomp/ghidra_decompiled.c:40362]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:40400] -> [decomp/ghidra_decompiled.c:40399]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:40401] -> [decomp/ghidra_decompiled.c:40399]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:44260] -> [decomp/ghidra_decompiled.c:44259]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:44261] -> [decomp/ghidra_decompiled.c:44259]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:44302] -> [decomp/ghidra_decompiled.c:44301]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:44303] -> [decomp/ghidra_decompiled.c:44301]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:44337] -> [decomp/ghidra_decompiled.c:44336]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:44338] -> [decomp/ghidra_decompiled.c:44336]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:48215] -> [decomp/ghidra_decompiled.c:48214]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:48216] -> [decomp/ghidra_decompiled.c:48214]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:48259] -> [decomp/ghidra_decompiled.c:48258]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:48260] -> [decomp/ghidra_decompiled.c:48258]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:48299] -> [decomp/ghidra_decompiled.c:48298]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:48300] -> [decomp/ghidra_decompiled.c:48298]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:48340] -> [decomp/ghidra_decompiled.c:48339]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:48341] -> [decomp/ghidra_decompiled.c:48339]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:48373] -> [decomp/ghidra_decompiled.c:48372]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:48374] -> [decomp/ghidra_decompiled.c:48372]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:48406] -> [decomp/ghidra_decompiled.c:48405]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:48407] -> [decomp/ghidra_decompiled.c:48405]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:49148] -> [decomp/ghidra_decompiled.c:49147]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:49149] -> [decomp/ghidra_decompiled.c:49147]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:49190] -> [decomp/ghidra_decompiled.c:49189]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:49191] -> [decomp/ghidra_decompiled.c:49189]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:49225] -> [decomp/ghidra_decompiled.c:49224]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:49226] -> [decomp/ghidra_decompiled.c:49224]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:49777] -> [decomp/ghidra_decompiled.c:49776]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:49778] -> [decomp/ghidra_decompiled.c:49776]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:49810] -> [decomp/ghidra_decompiled.c:49809]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:49811] -> [decomp/ghidra_decompiled.c:49809]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:51167] -> [decomp/ghidra_decompiled.c:51166]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:51168] -> [decomp/ghidra_decompiled.c:51166]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:51211] -> [decomp/ghidra_decompiled.c:51210]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:51212] -> [decomp/ghidra_decompiled.c:51210]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:51251] -> [decomp/ghidra_decompiled.c:51250]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:51252] -> [decomp/ghidra_decompiled.c:51250]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:52832]: (warning) %s in format string (no. 1) requires 'char *' but the argument type is 'signed long'.
+[decomp/ghidra_decompiled.c:53029]: (error) Shifting signed 32-bit value by 31 bits is undefined behaviour
+[decomp/ghidra_decompiled.c:3254]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:3341]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:3695]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:3732]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:3769]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:4036]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:4122]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:4415]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:4502]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:4772]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:4813]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:5109]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:5146]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:5631]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:5671]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:5711]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:6035]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:6122]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:7058]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:7096]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:7133]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:7443]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:7485]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:7804]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:7841]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:7878]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:7925]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:8012]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:8063]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:8108]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:8328]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:8414]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:8569]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:8611]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:8932]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:8971]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:9008]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:9056]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:9097]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:9591]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:9678]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:9723]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:9760]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:9797]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:10163]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:10200]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:10563]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:10649]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:10950]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:10995]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:11083]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:11121]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:11158]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:11437]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:11474]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:11511]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:11557]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:11594]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:11825]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:11912]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:12268]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:12305]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:12342]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:12701]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:12788]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:13580]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:13617]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:13654]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:13875]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:13912]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:13949]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:14373]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:14410]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:14447]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:14902]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:14939]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:14986]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:15023]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:15389]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:15426]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:15463]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:15750]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:15791]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:16825]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:16862]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:17045]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:17087]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:17850]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:17944]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:19738]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:19775]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:19896]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:19983]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:20434]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:20471]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:20508]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:21514]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:21551]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:21588]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:22049]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:22086]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:22528]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:22622]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:23211]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:23252]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:23594]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:23631]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:23676]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:23714]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:23751]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:24080]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:24117]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:24154]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:24381]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:24467]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:24562]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:24599]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:24645]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:24685]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:24845]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:24932]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:25235]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:25272]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:25309]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:25529]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:25616]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:26180]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:26221]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:26401]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:26442]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:26482]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:26637]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:26681]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:28387]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:28473]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:28921]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:29007]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:29109]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:29154]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:30014]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:30101]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:30321]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:30359]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:30396]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:30537]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:30624]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:30941]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:31027]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:31492]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:31530]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:31567]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:31615]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:31656]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:32479]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:32566]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:32615]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:32709]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:33757]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:33798]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:36568]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:36613]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:36717]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:36754]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:36816]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:36853]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:36890]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:37385]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:37479]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:37810]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:37897]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:37942]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:37980]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:38017]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:38065]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:38106]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:38153]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:38190]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:38411]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:38452]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:38848]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:38886]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:38923]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:39406]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:39500]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:39611]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:39659]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:40003]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:40040]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:40908]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:40949]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:40989]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:41040]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:41084]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:41314]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:41351]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:41401]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:41487]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:42516]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:42561]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:43210]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:43249]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:43286]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:44575]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:44661]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:45020]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:45107]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:45156]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:45250]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:45751]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:45788]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:45825]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:46280]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:46366]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:46466]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:46506]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:46546]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:46649]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:46736]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:46787]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:46832]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:46998]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:47038]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:47085]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:47122]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:47521]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:47607]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:47655]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:47742]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:47787]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:47825]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:47862]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:47910]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:47951]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:48909]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:48949]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:48989]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:49602]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:49644]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:49985]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:50071]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:50119]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:50206]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:50667]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:50707]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:51301]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:51343]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/ghidra_decompiled.c:2500]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:2501]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:2543]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:2544]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:2577]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:2578]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:2632]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:2633]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:2672]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:2737]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:3049]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:3296]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:3561]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:3659]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:4077]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:4424]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:4457]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:4511]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:4558]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:4559]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:4601]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:4602]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:4880]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:4945]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:6044]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:6077]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:6131]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:7695]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:7696]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:7750]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:7751]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:7934]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:7967]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:8021]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:8369]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:8652]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:8653]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:8707]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:8708]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:8799]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:8864]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:9183]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:9487]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:9552]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:9633]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:10071]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:10072]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:10126]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:10127]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:10604]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:11867]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:12710]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:12743]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:12797]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:12832]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:12833]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:12887]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:12888]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:13087]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:15130]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:15195]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:16265]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:16269]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:16307]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:16311]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:16567]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:16659]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:17754]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:17755]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:17809]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:17810]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:17859]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:17896]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:17953]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:18060]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:18061]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:18115]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:18116]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:18902]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:19178]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:19179]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:19233]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:19234]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:19338]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:19442]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:19905]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:19938]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:19992]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:22238]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:22303]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:22537]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:22574]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:22631]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:24422]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:24887]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:25082]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:25147]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:25418]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:25419]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:25473]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:25474]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:25538]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:25571]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:25625]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:26533]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:26598]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:26745]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:26746]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:26800]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:26801]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:27084]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:27149]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:27289]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:27293]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:27331]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:27335]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:27537]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:27538]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:27592]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:27593]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:28428]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:28731]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:28735]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:28772]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:28774]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:28811]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:28815]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:28962]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:29416]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:29481]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:29760]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:29761]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:29815]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:29816]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:30056]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:30195]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:30196]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:30250]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:30251]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:30579]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:30982]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:31754]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:31755]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:31809]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:31810]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:31939]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:32259]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:32260]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:32314]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:32315]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:32521]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:32624]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:32661]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:32718]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:33460]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:33464]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:33502]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:33506]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:33544]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:33548]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:33613]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:33614]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:33668]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:33669]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:34483]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:34484]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:34538]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:34539]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:34761]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:34945]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:35043]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:35404]: (error) Uninitialized variable: auStack868
+[decomp/ghidra_decompiled.c:35408]: (error) Uninitialized variable: auStack868
+[decomp/ghidra_decompiled.c:35450]: (error) Uninitialized variable: auStack868
+[decomp/ghidra_decompiled.c:35454]: (error) Uninitialized variable: auStack868
+[decomp/ghidra_decompiled.c:37394]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:37431]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:37488]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:37523]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:37524]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:37578]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:37579]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:37852]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:39415]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:39452]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:39509]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:40497]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:40498]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:40552]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:40553]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:40581]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:40582]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:40624]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:40625]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:40664]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:40729]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:41442]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:41681]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:41682]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:41736]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:41737]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:41926]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:41927]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:41981]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:41982]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:42085]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:42412]: (error) Uninitialized variable: auStack884
+[decomp/ghidra_decompiled.c:42414]: (error) Uninitialized variable: auStack884
+[decomp/ghidra_decompiled.c:42457]: (error) Uninitialized variable: auStack884
+[decomp/ghidra_decompiled.c:42459]: (error) Uninitialized variable: auStack884
+[decomp/ghidra_decompiled.c:43483]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:43925]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:43929]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:43966]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:43968]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:44005]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:44009]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:44058]: (error) Uninitialized variable: auStack868
+[decomp/ghidra_decompiled.c:44062]: (error) Uninitialized variable: auStack868
+[decomp/ghidra_decompiled.c:44104]: (error) Uninitialized variable: auStack868
+[decomp/ghidra_decompiled.c:44108]: (error) Uninitialized variable: auStack868
+[decomp/ghidra_decompiled.c:44297]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:44394]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:44395]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:44449]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:44450]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:44616]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:45062]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:45165]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:45202]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:45259]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:45364]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:45365]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:45407]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:45408]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:45447]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:45512]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:45973]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:45974]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:46016]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:46017]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:46321]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:46691]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:47562]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:47697]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:48448]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:48449]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:48503]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:48504]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:48766]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:48870]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:49068]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:49069]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:49111]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:49112]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:49185]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:49441]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:49445]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:49483]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:49487]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:49525]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:49529]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:49684]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:49688]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:49726]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:49730]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:50026]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:50161]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:50458]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:50459]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:50513]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:50514]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:50921]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:52004]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:52096]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:52550]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:52659]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:52663]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:52701]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:52705]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:52743]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:52747]: (error) Uninitialized variable: auStack852
+[decomp/ghidra_decompiled.c:3051]: (error) Uninitialized variable: puVar2
+[decomp/ghidra_decompiled.c:3298]: (error) Uninitialized variable: puVar6
+[decomp/ghidra_decompiled.c:4079]: (error) Uninitialized variable: puVar3
+[decomp/ghidra_decompiled.c:4459]: (error) Uninitialized variable: puVar6
+[decomp/ghidra_decompiled.c:6079]: (error) Uninitialized variable: puVar6
+[decomp/ghidra_decompiled.c:7969]: (error) Uninitialized variable: puVar6
+[decomp/ghidra_decompiled.c:8371]: (error) Uninitialized variable: puVar3
+[decomp/ghidra_decompiled.c:9185]: (error) Uninitialized variable: puVar2
+[decomp/ghidra_decompiled.c:9635]: (error) Uninitialized variable: puVar6
+[decomp/ghidra_decompiled.c:10606]: (error) Uninitialized variable: puVar3
+[decomp/ghidra_decompiled.c:11869]: (error) Uninitialized variable: puVar6
+[decomp/ghidra_decompiled.c:12745]: (error) Uninitialized variable: puVar6
+[decomp/ghidra_decompiled.c:13089]: (error) Uninitialized variable: puVar2
+[decomp/ghidra_decompiled.c:17898]: (error) Uninitialized variable: puVar3
+[decomp/ghidra_decompiled.c:18904]: (error) Uninitialized variable: puVar2
+[decomp/ghidra_decompiled.c:19940]: (error) Uninitialized variable: puVar6
+[decomp/ghidra_decompiled.c:22576]: (error) Uninitialized variable: puVar3
+[decomp/ghidra_decompiled.c:24424]: (error) Uninitialized variable: puVar3
+[decomp/ghidra_decompiled.c:24889]: (error) Uninitialized variable: puVar6
+[decomp/ghidra_decompiled.c:25573]: (error) Uninitialized variable: puVar6
+[decomp/ghidra_decompiled.c:28430]: (error) Uninitialized variable: puVar3
+[decomp/ghidra_decompiled.c:28964]: (error) Uninitialized variable: puVar3
+[decomp/ghidra_decompiled.c:30058]: (error) Uninitialized variable: puVar6
+[decomp/ghidra_decompiled.c:30581]: (error) Uninitialized variable: puVar6
+[decomp/ghidra_decompiled.c:30984]: (error) Uninitialized variable: puVar3
+[decomp/ghidra_decompiled.c:31941]: (error) Uninitialized variable: puVar2
+[decomp/ghidra_decompiled.c:32523]: (error) Uninitialized variable: puVar6
+[decomp/ghidra_decompiled.c:32663]: (error) Uninitialized variable: puVar3
+[decomp/ghidra_decompiled.c:34763]: (error) Uninitialized variable: puVar2
+[decomp/ghidra_decompiled.c:37433]: (error) Uninitialized variable: puVar3
+[decomp/ghidra_decompiled.c:37854]: (error) Uninitialized variable: puVar6
+[decomp/ghidra_decompiled.c:39454]: (error) Uninitialized variable: puVar3
+[decomp/ghidra_decompiled.c:41444]: (error) Uninitialized variable: puVar3
+[decomp/ghidra_decompiled.c:42087]: (error) Uninitialized variable: puVar2
+[decomp/ghidra_decompiled.c:43485]: (error) Uninitialized variable: puVar2
+[decomp/ghidra_decompiled.c:44299]: (error) Uninitialized variable: puVar2
+[decomp/ghidra_decompiled.c:44618]: (error) Uninitialized variable: puVar3
+[decomp/ghidra_decompiled.c:45064]: (error) Uninitialized variable: puVar6
+[decomp/ghidra_decompiled.c:45204]: (error) Uninitialized variable: puVar3
+[decomp/ghidra_decompiled.c:46323]: (error) Uninitialized variable: puVar3
+[decomp/ghidra_decompiled.c:46693]: (error) Uninitialized variable: puVar6
+[decomp/ghidra_decompiled.c:47564]: (error) Uninitialized variable: puVar3
+[decomp/ghidra_decompiled.c:47699]: (error) Uninitialized variable: puVar6
+[decomp/ghidra_decompiled.c:49187]: (error) Uninitialized variable: puVar2
+[decomp/ghidra_decompiled.c:50028]: (error) Uninitialized variable: puVar3
+[decomp/ghidra_decompiled.c:50163]: (error) Uninitialized variable: puVar6
+[decomp/ghidra_decompiled.c:50923]: (error) Uninitialized variable: puVar2
+[decomp/ghidra_decompiled.c:52552]: (error) Uninitialized variable: puVar2

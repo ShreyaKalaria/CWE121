@@ -1,0 +1,68 @@
+/*
+ *      Copyright (c) 1999-2003, an unpublished work by GrammaTech, Inc.
+ *                      ALL RIGHTS RESERVED
+ *
+ *      This software is furnished under a license and may be used and
+ *      copied only in accordance with the terms of such license and the
+ *      inclusion of the above copyright notice.  This software or any
+ *      other copies thereof may not be provided or otherwise made
+ *      available to any other person.  Title to and ownership of the
+ *      software is retained by GrammaTech, Inc.
+ */
+
+/* Do not guard this include_next with _STDARG_H_CSURF because 
+   this file must be included multiple times on some systems.
+*/
+#ifndef CS_LIBRARY_MODELS_SHOULD_NOT_INCLUDE_SYSTEM_FILES
+#include_next <stdarg.h>
+#endif /* CS_LIBRARY_MODELS_SHOULD_NOT_INCLUDE_SYSTEM_FILES */
+
+#ifndef _STDARG_H_CSURF_BUILTIN_VA_LIST
+#ifndef __builtin_va_list
+#define _STDARG_H_CSURF_BUILTIN_VA_LIST
+typedef char *  __builtin_va_list;
+#endif /* __builtin_va_list */
+#endif /* _STDARG_H_CSURF_BUILTIN_VA_LIST */
+
+
+#ifdef CS_LIBRARY_MODELS_SHOULD_NOT_INCLUDE_SYSTEM_FILES
+#ifndef _VA_LIST_DEFINED
+/* Define it for CodeSurfer library models */
+typedef char * va_list;
+#define _VA_LIST_DEFINED_
+#define _VA_LIST_DEFINED
+#define _VA_LIST_
+#define _VA_LIST
+#endif /* _VA_LIST_DEFINED */
+#endif /* CS_LIBRARY_MODELS_SHOULD_NOT_INCLUDE_SYSTEM_FILES */
+
+#define _VARARGS_H_CSURF
+
+#if defined(va_start) || defined(CS_LIBRARY_MODELS_SHOULD_NOT_INCLUDE_SYSTEM_FILES)
+#undef va_start
+#hard_define va_start(x, n) (*(char**)&(x) = (char*)(&__builtin_va_alist))
+#endif /* va_start */
+
+#if defined(va_copy) || defined(CS_LIBRARY_MODELS_SHOULD_NOT_INCLUDE_SYSTEM_FILES)
+#undef va_copy
+#hard_define va_copy(dest, src) ((dest) = (src))
+#endif /* va_copy */
+
+#if defined(va_arg) || defined(CS_LIBRARY_MODELS_SHOULD_NOT_INCLUDE_SYSTEM_FILES)
+#undef va_arg
+#hard_define va_arg(x, n) (*(n*)(((*(char**)&(x)) += sizeof(n)) - sizeof(n)))
+#endif /* va_arg */
+
+#if defined(va_end) || defined(CS_LIBRARY_MODELS_SHOULD_NOT_INCLUDE_SYSTEM_FILES)
+#undef va_end
+#hard_define va_end(x) ((void)0)
+#endif /* va_end */
+
+#ifdef __GNUC__
+/* GNUC's builtin_va* */
+#hard_define __builtin_va_start(x, n) (*(char**)&(x) = (char*)(&__builtin_va_alist))
+#hard_define __builtin_va_copy(dest, src) ((dest) = (src))
+#hard_define __builtin_va_arg(x, n) (*(n*)(((*(char**)&(x)) += sizeof(n)) - sizeof(n)))
+#hard_define __builtin_va_end(x) (void *)0
+#hard_define __builtin_va_arg_pack() (__builtin_va_alist)
+#endif /* __GNUC__ */

@@ -1,0 +1,351 @@
+Flawfinder version 2.0.8, (C) 2001-2017 David A. Wheeler.
+Number of rules (primarily dangerous function names) in C/C++ ruleset: 223
+decomp/ida_decompiled.c:847:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+  srand(v3);
+decomp/ida_decompiled.c:717:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+char s[3] = { '\0', '\0', '\0' }; // idb
+decomp/ida_decompiled.c:1605:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:1628:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:1649:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:1699:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(a1, &src, 0x320uLL);
+decomp/ida_decompiled.c:1716:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(a1, &src, 0x320uLL);
+decomp/ida_decompiled.c:2343:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:2363:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:2383:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:2651:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:2671:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:3057:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:3081:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:3103:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:3128:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(a1, &src, 0x320uLL);
+decomp/ida_decompiled.c:3155:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(a1, &src, 0x320uLL);
+decomp/ida_decompiled.c:3226:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(a1, &src, 0x320uLL);
+decomp/ida_decompiled.c:3243:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(a1, &src, 0x320uLL);
+decomp/ida_decompiled.c:3363:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:3387:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:3474:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:3493:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:3776:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:3796:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:3852:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:3872:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:3892:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:4036:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:4056:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:4237:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:4258:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:4623:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:4645:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:4668:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(a1, &src, 0x320uLL);
+decomp/ida_decompiled.c:4697:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(a1, &src, 0x320uLL);
+decomp/ida_decompiled.c:4748:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:4771:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:4792:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:4819:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:4839:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:4859:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:5474:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(a1, &src, 0x320uLL);
+decomp/ida_decompiled.c:5491:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(a1, &src, 0x320uLL);
+decomp/ida_decompiled.c:6333:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:6365:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:6415:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:6434:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:7236:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(a1, &src, 0x320uLL);
+decomp/ida_decompiled.c:7253:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(a1, &src, 0x320uLL);
+decomp/ida_decompiled.c:7582:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(a1, &src, 0x320uLL);
+decomp/ida_decompiled.c:7599:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(a1, &src, 0x320uLL);
+decomp/ida_decompiled.c:7679:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:7699:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:7760:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:7784:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:7806:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:8136:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:8156:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:8176:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:8410:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:8431:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:8450:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:8469:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:8678:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:8702:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:8724:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:8786:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:8814:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:9130:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:9154:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:9176:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:9343:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:9363:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:9383:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:9414:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:9438:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:9553:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:9577:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:9599:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:10754:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:10778:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+decomp/ida_decompiled.c:10800:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(dest, &src, 0x320uLL);
+
+ANALYSIS SUMMARY:
+
+Hits = 83
+Lines analyzed = 11543 in approximately 0.19 seconds (60352 lines/second)
+Physical Source Lines of Code (SLOC) = 9264
+Hits@level = [0]  14 [1]   0 [2]  82 [3]   1 [4]   0 [5]   0
+Hits@level+ = [0+]  97 [1+]  83 [2+]  83 [3+]   1 [4+]   0 [5+]   0
+Hits/KSLOC@level+ = [0+] 10.4706 [1+] 8.95941 [2+] 8.95941 [3+] 0.107945 [4+]   0 [5+]   0
+Minimum risk level = 1
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!
+See 'Secure Programming HOWTO'
+(https://dwheeler.com/secure-programs) for more information.

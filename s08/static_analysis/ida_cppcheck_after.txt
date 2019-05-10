@@ -1,0 +1,951 @@
+[decomp/ida_decompiled.c:20166]: (warning) wprintf format string requires 0 parameters but 1 is given.
+[decomp/ida_decompiled.c:20173]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
+[decomp/ida_decompiled.c:20179]: (warning) %hd in format string (no. 1) requires 'short' but the argument type is 'unsigned int'.
+[decomp/ida_decompiled.c:20244]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
+[decomp/ida_decompiled.c:20244]: (warning) %d in format string (no. 2) requires 'int' but the argument type is 'unsigned int'.
+[decomp/ida_decompiled.c:2455]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:2457]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:2485]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:2487]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:2554]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:2556]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:2573]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:2575]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:2732]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:2759]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:2790]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:2830]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:2862]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3050]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3065]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3118]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3141]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3170]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3193]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3216]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3245]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3247]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3263]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3265]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3289]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3291]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3317]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3319]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3349]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3351]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3537]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3553]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3673]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3675]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3697]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3699]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3721]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3723]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3818]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3850]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3888]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3911]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:3934]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4006]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4008]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4034]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4036]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4152]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4176]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4201]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4231]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4233]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4252]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4254]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4343]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4345]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4362]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4364]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4387]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4389]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4406]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4408]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4433]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4456]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4479]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4559]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4586]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4617]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4664]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4666]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4700]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4702]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4739]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4741]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4758]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4760]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4785]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4808]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:4989]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5012]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5035]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5143]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5170]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5201]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5323]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5353]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5382]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5384]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5410]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5412]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5442]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5444]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5615]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5617]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5634]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5636]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5735]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5762]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5793]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5865]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5894]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5966]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5968]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5990]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:5992]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6014]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6016]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6045]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6047]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6069]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6071]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6100]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6127]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6186]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6201]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6275]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6277]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6307]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6309]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6482]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6501]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6558]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6560]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6585]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6587]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6616]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6618]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6650]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6652]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6674]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6676]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6698]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6700]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6757]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6759]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6785]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6787]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6817]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6819]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6920]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6922]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6944]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:6946]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7069]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7071]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7088]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7090]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7128]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7130]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7155]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7157]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7186]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7188]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7221]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7248]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7331]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7333]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7350]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7352]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7472]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7487]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7624]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7639]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7767]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7769]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7795]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7797]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7914]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:7929]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:8272]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:8287]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:8445]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:8447]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:8475]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:8477]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:8600]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:8623]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:8646]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:8807]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:8837]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:8866]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:8868]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:8894]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:8896]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:8926]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:8928]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:8956]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:8971]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9008]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9048]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9084]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9190]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9192]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9218]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9220]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9250]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9252]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9284]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9311]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9342]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9386]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9415]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9441]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9443]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9465]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9467]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9489]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9491]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9515]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9530]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9556]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9558]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9580]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9582]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9611]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9638]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9848]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9880]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9907]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9909]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9939]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9941]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:9997]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10019]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10048]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10071]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10094]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10132]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10147]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10199]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10218]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10245]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10247]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10272]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10274]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10303]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10305]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10337]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10339]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10361]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10363]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10385]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10387]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10467]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10494]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10525]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10634]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10636]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10658]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10660]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10707]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10722]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10926]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10928]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10954]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10956]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10986]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:10988]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11168]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11170]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11192]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11194]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11216]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11218]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11291]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11293]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11318]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11320]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11349]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11351]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11523]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11550]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11617]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11619]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11645]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11647]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11677]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11679]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11776]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11778]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11807]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11809]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11935]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11937]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11963]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:11965]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12020]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12022]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12039]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12041]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12219]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12251]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12283]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12314]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12345]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12347]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12368]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12370]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12469]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12471]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12493]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12495]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12635]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12637]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12663]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12665]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12695]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12697]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12755]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12770]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12795]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12818]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12841]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12873]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:12900]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:13023]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:13039]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:13088]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:13114]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:13144]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:13759]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:13785]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:13815]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:13848]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:13872]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:13897]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:13927]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:13929]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:13948]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:13950]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:14239]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:14262]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:14448]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:14475]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:14506]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:14540]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:14563]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:14586]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:14617]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:14619]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:14645]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:14647]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:14677]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:14679]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:14718]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:14720]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:14750]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:14752]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:14781]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:14804]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15075]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15077]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15099]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15101]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15131]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15133]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15159]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15161]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15264]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15266]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15283]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15285]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15339]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15341]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15363]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15365]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15387]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15389]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15417]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15444]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15475]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15536]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15538]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15554]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15556]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15668]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15683]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15806]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15808]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15834]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15836]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15866]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15868]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15912]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15952]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:15988]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16140]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16142]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16164]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16166]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16188]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16190]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16218]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16241]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16385]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16408]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16431]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16629]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16656]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16689]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16691]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16717]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16719]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16749]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16751]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16793]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16795]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16824]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16826]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16877]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16879]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16896]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16898]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16923]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16946]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:16969]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17002]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17004]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17030]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17032]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17203]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17205]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17239]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17241]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17269]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17271]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17293]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17295]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17317]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17319]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17401]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17418]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17475]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17506]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17588]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17619]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17644]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17671]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17702]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17810]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17836]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17866]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17895]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:17910]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18049]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18051]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18068]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18070]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18185]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18187]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18204]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18206]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18424]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18455]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18481]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18483]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18504]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18506]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18532]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18558]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18588]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18617]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18632]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18766]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18783]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18884]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18911]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18942]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:18988]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19010]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19039]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19066]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19097]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19328]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19351]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19380]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19407]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19438]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19473]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19475]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19501]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19503]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19533]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19535]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19574]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19576]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19606]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19608]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19773]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19775]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19792]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19794]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19946]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19948]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19965]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19967]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19993]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:19995]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:20017]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:20019]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:20041]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:20043]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:20074]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:20076]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:20102]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:20104]: (warning) Obsolete function 'alloca' called. In C99 and later it is recommended to use a variable length array instead.
+[decomp/ida_decompiled.c:2441]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:2471]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:2515]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:2535]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:2673]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:2685]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:2891]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:2903]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:3300]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:3332]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:3360]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:3380]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:3405]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:3443]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:3467]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:3487]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:3589]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:3604]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:3681]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:3705]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:3729]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:3752]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:3768]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:3784]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:4017]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:4045]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:4063]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:4075]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:4087]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:4099]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:4115]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:4131]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:4278]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:4301]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:4522]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:4538]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:4650]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:4685]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:4847]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:4864]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:5066]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:5082]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:5102]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:5122]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:5239]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:5262]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:5281]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:5393]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:5425]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:5453]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:5492]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:5516]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:5536]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:5662]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:5678]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:5708]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:5720]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:5826]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:5840]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:5974]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:5998]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6022]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6053]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6077]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6291]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6316]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6569]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6600]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6627]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6658]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6682]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6706]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6727]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6741]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6768]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6800]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6828]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6852]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6868]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6880]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6892]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6928]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6952]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6970]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:6982]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:7008]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:7022]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:7139]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:7170]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:7197]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:7549]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:7573]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:7593]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:7698]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:7722]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:7742]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:7778]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:7806]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:7824]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:7836]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8000]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8016]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8032]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8058]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8082]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8102]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8222]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8238]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8254]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8313]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8329]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8431]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8461]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8510]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8527]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8680]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8703]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8722]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8745]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8761]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8777]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8877]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8909]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:8937]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9128]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9144]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9162]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9174]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9201]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9233]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9261]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9449]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9473]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9497]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9564]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9588]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9702]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9718]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9734]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9772]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9795]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9814]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9923]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9948]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9968]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:9982]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:10256]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:10287]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:10314]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:10345]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:10369]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:10393]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:10412]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:10435]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:10564]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:10584]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:10642]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:10666]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:10684]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:10696]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:10836]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:10848]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:10937]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:10969]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:10997]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11079]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11095]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11111]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11176]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11200]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11224]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11302]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11333]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11360]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11628]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11660]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11688]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11712]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11728]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11744]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11763]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11793]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11861]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11876]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11945]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11973]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:11993]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:12007]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:12063]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:12075]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:12186]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:12198]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:12477]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:12501]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:12646]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:12678]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:12706]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:12935]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:12959]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:12979]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:12999]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:13011]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:13347]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:13362]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:13427]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:13451]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:13515]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:13529]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:13560]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:13583]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:13602]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:13668]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:13692]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:13712]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:13732]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:13744]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:13982]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:14002]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:14290]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:14318]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:14354]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:14370]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:14386]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:14628]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:14660]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:14688]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:14728]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:14760]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:14846]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:14862]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:14882]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:14902]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:15007]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:15031]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:15051]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:15083]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:15107]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:15141]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:15169]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:15347]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:15371]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:15395]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:15508]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:15522]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:15580]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:15596]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:15612]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:15635]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:15651]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:15817]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:15849]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:15877]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:16078]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:16090]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:16148]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:16172]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:16196]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:16274]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:16298]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:16318]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:16354]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:16370]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:16458]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:16470]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:16512]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:16524]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:16700]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:16732]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:16760]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:16780]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:16810]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:17012]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:17040]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:17189]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:17224]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:17277]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:17301]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:17325]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:17346]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:17360]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:17549]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:17561]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:17735]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:17763]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:17934]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:17949]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:18235]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:18259]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:18279]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:18301]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:18315]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:18339]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:18363]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:18383]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:18397]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:18686]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:18702]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:18718]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:18739]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:18753]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:19128]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:19140]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:19159]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:19183]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:19203]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:19231]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:19251]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:19269]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:19294]: (error) Invalid strcpy() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:19484]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:19516]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:19544]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:19584]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:19616]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:19746]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:19760]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:19881]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:19905]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:19925]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:20001]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:20025]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:20049]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:20084]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:20112]: (error) Invalid strcat() argument nr 2. A nul-terminated string is required.
+[decomp/ida_decompiled.c:1366]: (error) Uninitialized variable: v3
+[decomp/ida_decompiled.c:3300]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:3301]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:3360]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:3361]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:3443]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:3444]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:3487]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:3488]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:5262]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:5263]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:5393]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:5394]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:5453]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:5454]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:5492]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:5493]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:5536]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:5537]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:6600]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:6601]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:6768]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:6769]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:6828]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:6829]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:7170]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:7171]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:7549]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:7550]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:7593]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:7594]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:7698]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:7699]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:7742]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:7743]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:8058]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:8059]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:8102]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:8103]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:8703]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:8704]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:8877]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:8878]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:8937]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:8938]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:9201]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:9202]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:9261]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:9262]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:9795]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:9796]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:10287]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:10288]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:10937]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:10938]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:10997]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:10998]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:11333]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:11334]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:11628]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:11629]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:11688]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:11689]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:12646]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:12647]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:12706]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:12707]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:12935]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:12936]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:12979]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:12980]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:13583]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:13584]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:13668]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:13669]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:13712]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:13713]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:14628]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:14629]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:14688]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:14689]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:15007]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:15008]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:15051]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:15052]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:15817]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:15818]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:15877]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:15878]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:16274]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:16275]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:16318]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:16319]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:16700]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:16701]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:16760]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:16761]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:18235]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:18236]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:18279]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:18280]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:19159]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:19160]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:19203]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:19204]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:19484]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:19485]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:19544]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:19545]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:19881]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:19882]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:19925]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:19926]: (error) Uninitialized variable: dest
+[decomp/ida_decompiled.c:20157]: (error) Uninitialized variable: result
+[decomp/ida_decompiled.c:20167]: (error) Uninitialized variable: result
+(information) Cppcheck cannot find all the include files (use --check-config for details)

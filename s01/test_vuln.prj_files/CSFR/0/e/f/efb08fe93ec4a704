@@ -1,0 +1,50 @@
+/* Include the normal sys/cdefs.h.  If you get a cannot find file
+ * error here, it is indicative that the real sys/cdefs.h is not in
+ * your include search path.  Adding something like -I/usr/include to
+ * CFLAGS_APPEND in the conf file would fix this error if the real
+ * cdefs.h were located at /usr/include/sys/cdefs.h
+ */
+#include_next <sys/cdefs.h>
+
+/* Our library models use the unaliased names, so ignore the aliases. */
+#ifdef __DARWIN_ALIAS
+#hard_define __DARWIN_ALIAS(x)
+#endif
+#ifdef __DARWIN_ALIAS_C
+#hard_define __DARWIN_ALIAS_C(x)
+#endif
+#ifdef __DARWIN_ALIAS_I
+#hard_define __DARWIN_ALIAS_I(x)
+#endif
+#ifdef __DARWIN_INODE64
+#hard_define __DARWIN_INODE64(x)
+#endif
+#ifdef __DARWIN_1050
+#hard_define __DARWIN_1050(x)
+#endif
+#ifdef __DARWIN_1050ALIAS
+#hard_define __DARWIN_1050ALIAS(x)
+#endif
+#ifdef __DARWIN_1050ALIAS_C
+#hard_define __DARWIN_1050ALIAS_C(x)
+#endif
+#ifdef __DARWIN_1050ALIAS_I
+#hard_define __DARWIN_1050ALIAS_I(x)
+#endif
+#ifdef __DARWIN_1050INODE64
+#hard_define __DARWIN_1050INODE64(x)
+#endif
+#ifdef __DARWIN_EXTSN
+#hard_define __DARWIN_EXTSN(x)
+#endif
+#ifdef __DARWIN_EXTSN_C
+#hard_define __DARWIN_EXTSN_C(x)
+#endif
+#ifdef __DARWIN_10_6_AND_LATER_ALIAS
+#hard_define __DARWIN_10_6_AND_LATER_ALIAS(x)
+#endif
+
+/* netbsd */
+#ifdef __RENAME
+#hard_define __RENAME(x)
+#endif

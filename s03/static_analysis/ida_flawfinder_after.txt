@@ -1,0 +1,2787 @@
+Flawfinder version 2.0.8, (C) 2001-2017 David A. Wheeler.
+Number of rules (primarily dangerous function names) in C/C++ ruleset: 223
+decomp/ida_decompiled.c:1985:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+  srand(v3);
+decomp/ida_decompiled.c:1805:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+char s[3] = { '\0', '\0', '\0' }; // idb
+decomp/ida_decompiled.c:4597:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:4598:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:4629:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:4630:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:4665:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:4666:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:4810:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:4811:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:4842:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:4843:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:4878:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:4879:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:4917:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-C0h]
+decomp/ida_decompiled.c:4918:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-B1h]
+decomp/ida_decompiled.c:4953:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-C0h]
+decomp/ida_decompiled.c:4954:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-B1h]
+decomp/ida_decompiled.c:5274:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-80h]
+decomp/ida_decompiled.c:5292:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-80h]
+decomp/ida_decompiled.c:5617:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:5618:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:5645:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:5646:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:5673:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:5674:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:5708:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:5709:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-A1h]
+decomp/ida_decompiled.c:5740:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:5741:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-A1h]
+decomp/ida_decompiled.c:6604:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:6620:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:6770:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:6771:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:6798:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:6799:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:6826:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:6827:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:6955:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:6956:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:6983:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:6984:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:7602:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:7603:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:7634:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:7635:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:7670:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:7671:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:7747:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:7781:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:8062:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:8063:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-A1h]
+decomp/ida_decompiled.c:8094:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:8095:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-A1h]
+decomp/ida_decompiled.c:8130:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-80h]
+decomp/ida_decompiled.c:8148:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-80h]
+decomp/ida_decompiled.c:8952:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:8968:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:10028:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-150h]
+decomp/ida_decompiled.c:10056:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-150h]
+decomp/ida_decompiled.c:10330:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-80h]
+decomp/ida_decompiled.c:10348:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-80h]
+decomp/ida_decompiled.c:10830:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:10850:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:10870:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:10897:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-140h]
+decomp/ida_decompiled.c:10921:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-140h]
+decomp/ida_decompiled.c:11279:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:11280:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:11307:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:11308:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:12124:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:12125:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:12152:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:12153:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:12180:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:12181:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:12754:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-80h]
+decomp/ida_decompiled.c:12774:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-80h]
+decomp/ida_decompiled.c:12830:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:12854:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:12882:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:13716:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-80h]
+decomp/ida_decompiled.c:13734:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-80h]
+decomp/ida_decompiled.c:14793:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-80h]
+decomp/ida_decompiled.c:14813:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-80h]
+decomp/ida_decompiled.c:14937:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:14961:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:15708:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:15737:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:16717:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:16733:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:17223:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:17247:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:17275:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:17576:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:17599:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:17626:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:17924:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:17944:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:17964:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:18243:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:18244:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:18275:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:18276:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:18376:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:18410:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:18825:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-80h]
+decomp/ida_decompiled.c:18864:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-80h]
+decomp/ida_decompiled.c:20257:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:20277:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:20297:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:20975:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:20999:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:21027:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:21058:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:21085:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:21315:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-140h]
+decomp/ida_decompiled.c:21339:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-140h]
+decomp/ida_decompiled.c:21783:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-80h]
+decomp/ida_decompiled.c:21801:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-80h]
+decomp/ida_decompiled.c:22183:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:22203:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:22223:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:22584:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:22604:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:23649:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:23672:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:23699:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:23915:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:23939:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:23967:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:24157:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:24181:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:24209:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:24349:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:24350:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:24381:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:24382:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:24417:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:24418:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:25019:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:25035:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:25081:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:25082:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:25109:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:25110:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:25137:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:25138:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:25302:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:25318:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:25618:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:25619:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:25654:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:25655:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:25745:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:25774:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:26286:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:26287:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:26318:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:26319:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:26354:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:26355:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:26513:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:26514:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:26544:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:26545:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:26579:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:26580:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:26617:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:26618:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:26645:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:26646:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:26673:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:26674:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:27094:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:27095:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:27122:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:27123:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:27188:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:27204:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:27299:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-80h]
+decomp/ida_decompiled.c:27331:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-80h]
+decomp/ida_decompiled.c:27727:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:27728:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:27758:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:27759:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:27793:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:27794:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:28381:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:28382:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:28413:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:28414:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:28449:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-A0h]
+decomp/ida_decompiled.c:28450:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v4[99]; // [rsp+Fh] [rbp-91h]
+decomp/ida_decompiled.c:28697:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-80h]
+decomp/ida_decompiled.c:28716:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-80h]
+decomp/ida_decompiled.c:29103:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-80h]
+decomp/ida_decompiled.c:29121:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-80h]
+decomp/ida_decompiled.c:29326:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:29342:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:29832:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:29856:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:29884:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:30710:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:30730:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:30904:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-80h]
+decomp/ida_decompiled.c:30923:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-80h]
+decomp/ida_decompiled.c:31585:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:31601:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:31617:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:31633:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:31681:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:31701:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:33014:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:33034:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:33054:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+0h] [rbp-130h]
+decomp/ida_decompiled.c:34330:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:34346:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char s[99]; // [rsp+10h] [rbp-70h]
+decomp/ida_decompiled.c:3910:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:3943:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:3972:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:4099:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:4119:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:4137:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:4162:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:4261:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:4286:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:4707:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:4720:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:5013:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:5046:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:5075:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:5123:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:5155:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:5183:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:5319:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:5336:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:5400:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:5423:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:5442:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:5477:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:5506:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:5532:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:5556:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:5576:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:6537:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:6552:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:6641:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:6653:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:6706:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:6731:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:6752:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:6904:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:6928:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:7032:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:7057:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:7082:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:7118:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:7147:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:7495:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:7512:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:7529:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:7716:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:7733:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:7862:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:7897:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:7998:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:8022:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:8046:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:8187:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:8215:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:8800:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:8816:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:8835:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:8859:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:8879:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:8903:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:8920:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:8937:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:9056:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:9089:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:9118:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:9313:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:9330:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:9347:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:9374:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:9399:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:9420:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:9533:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:9550:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:9633:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:9646:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:9729:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:9754:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:9779:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:9989:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:10014:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:10114:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:10138:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:10158:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:10971:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:11003:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:11031:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:11063:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:11088:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:11113:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:11351:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:11376:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:11397:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:11422:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:11438:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:11454:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:11665:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:11681:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:11857:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:11888:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:11938:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:11955:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:12408:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:12424:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:12440:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:12548:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:12580:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:12608:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:12695:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:12719:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:12739:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:12918:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:12930:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:12957:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:12990:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:13019:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:13064:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:13088:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:13112:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:13313:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:13337:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:13595:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:13612:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:13629:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:13862:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:13886:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:13906:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:14120:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:14145:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:14170:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:14195:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:14216:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:14576:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:14607:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:14634:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:14665:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:14689:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:14713:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:14732:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:14756:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:14894:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:14906:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:15141:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:15166:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:15187:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:15202:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:15270:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:15302:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:15330:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:15362:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:15386:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:15553:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:15565:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:15590:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:15608:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:15784:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:15809:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:15830:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:15946:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:15959:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:15999:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:16030:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:16057:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:16857:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:16890:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:16919:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:16940:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:16971:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:17024:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:17038:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:17052:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:17067:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:17130:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:17143:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:17509:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:17538:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:17663:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:17678:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:18455:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:18467:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:18479:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:18491:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:18515:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:18528:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:19664:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:19679:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:19755:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:19780:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:19801:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:19860:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:19885:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:20102:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:20117:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:20214:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:20226:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:20238:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:20250:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:20440:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:20456:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:20542:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:20563:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:21163:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:21184:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:21205:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:21233:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:21269:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:21285:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:21301:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:21883:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:21916:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:21945:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:22012:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:22045:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:22271:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:22299:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:22406:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:22429:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:22448:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:22467:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:22497:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:22791:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:22807:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:22987:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:23003:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:23193:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:23219:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:23238:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:23251:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:23862:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:23878:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:24070:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:24102:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:24130:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:24272:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:24304:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:24332:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:24912:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:24928:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:24954:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:24979:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:25004:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:25435:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:25448:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:25465:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:25482:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:25595:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:25609:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:25813:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:25837:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:25857:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:26450:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:26470:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:26490:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:26504:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:26713:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:26742:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:26791:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:26808:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:26825:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:27237:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:27261:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:27285:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:27502:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:27519:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:27660:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:27673:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:28042:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:28074:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:28102:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:28164:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:28179:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:28192:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:28222:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:28634:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:28648:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:28846:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:28882:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:29038:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:29063:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:29088:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:29204:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:29220:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:29236:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:29255:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:29267:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:30553:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:30568:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:30593:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:30617:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:30689:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:30703:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:31217:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:31233:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:31249:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:31276:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:31296:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:32311:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:32332:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(dest, &s, 0x63uLL);
+decomp/ida_decompiled.c:32351:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:32377:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:32416:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:32440:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:32460:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:32480:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:32493:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:32705:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:32718:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+  strncpy(a1, &s, 0x63uLL);
+decomp/ida_decompiled.c:32790:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:32822:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:32850:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:32969:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:33001:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:33271:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:33294:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:33337:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:33351:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:33798:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:33822:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:33842:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:33998:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:34022:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:34046:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:34081:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:34109:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(dest, &s, 0x64uLL);
+decomp/ida_decompiled.c:34399:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+decomp/ida_decompiled.c:34411:  [1] (buffer) strncat:
+  Easily used incorrectly (e.g., incorrectly computing the correct maximum
+  size to add) [MS-banned] (CWE-120). Consider strcat_s, strlcat, snprintf,
+  or automatically resizing strings.
+  strncat(a1, &s, 0x64uLL);
+
+ANALYSIS SUMMARY:
+
+Hits = 543
+Lines analyzed = 34848 in approximately 0.90 seconds (38882 lines/second)
+Physical Source Lines of Code (SLOC) = 29627
+Hits@level = [0]  95 [1] 324 [2] 218 [3]   1 [4]   0 [5]   0
+Hits@level+ = [0+] 638 [1+] 543 [2+] 219 [3+]   1 [4+]   0 [5+]   0
+Hits/KSLOC@level+ = [0+] 21.5344 [1+] 18.3279 [2+] 7.39191 [3+] 0.033753 [4+]   0 [5+]   0
+Minimum risk level = 1
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!
+See 'Secure Programming HOWTO'
+(https://dwheeler.com/secure-programs) for more information.

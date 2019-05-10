@@ -1,0 +1,339 @@
+/* Declares gcc builtins not declared by the frontend internally.
+ */
+
+#ifdef __CODESONAR__
+extern void *__csonar_gcc_atomic_mutex;
+#ifdef __cplusplus
+extern "C" {
+#endif
+void csonar_mutex_acquire( void *mutex );
+void csonar_mutex_release( void *mutex );
+#ifdef __cplusplus
+}
+#endif
+#ifdef __cplusplus
+#define __CSONAR_GCC_ATOMIC_WRAP( exp )                   \
+    ({ csonar_mutex_acquire( __csonar_gcc_atomic_mutex ); \
+        typeof( exp )__csonar_gcc_atomic_val = (exp);     \
+       csonar_mutex_release( __csonar_gcc_atomic_mutex ); \
+       __csonar_gcc_atomic_val; })
+#else /* __cplusplus */
+#define __CSONAR_GCC_ATOMIC_WRAP( exp )                   \
+    ({ typeof(exp) __csonar_gcc_atomic_val;               \
+       csonar_mutex_acquire( __csonar_gcc_atomic_mutex ); \
+       __csonar_gcc_atomic_val = (exp);                   \
+       csonar_mutex_release( __csonar_gcc_atomic_mutex ); \
+       (void)__csonar_gcc_atomic_val;                     \
+       __csonar_gcc_atomic_val; })
+#endif /* __cplusplus */
+#else
+#define __CSONAR_GCC_ATOMIC_WRAP( exp ) exp
+#endif
+#define __CSONAR_GCC_ATOMIC_WRAP_VOID( exp )             \
+     ((void)__CSONAR_GCC_ATOMIC_WRAP( exp ))
+
+/* From
+   http://gcc.gnu.org/onlinedocs/gcc-4.6.3/gcc/Atomic-Builtins.html
+*/
+#define __csonar_sync_fetch_and_add(ptr, val, ...) \
+    ({ typeof(ptr) __csonar_ptr = (ptr); typeof(*__csonar_ptr) __csonar_old = *__csonar_ptr; *__csonar_ptr += (val); __csonar_old; })
+#define __sync_fetch_and_add(ptr, val, ...) __CSONAR_GCC_ATOMIC_WRAP( __csonar_sync_fetch_and_add(ptr, val) )
+
+#define __csonar_sync_fetch_and_sub(ptr, val, ...) \
+    ({ typeof(ptr) __csonar_ptr = (ptr); typeof(*__csonar_ptr) __csonar_old = *__csonar_ptr; *__csonar_ptr -= (val); __csonar_old; })
+#define __sync_fetch_and_sub(ptr, val, ...) __CSONAR_GCC_ATOMIC_WRAP( __csonar_sync_fetch_and_sub(ptr, val) )
+
+#define CS__sync_fetch_and_BITOP( operator, ptr, val )          \
+    __CSONAR_GCC_ATOMIC_WRAP(                                   \
+    ({ typeof(ptr) __csonar_ptr = (ptr);                        \
+       typeof(*__csonar_ptr) __csonar_old = *__csonar_ptr;      \
+       if( sizeof( *__csonar_ptr ) == sizeof(char) )            \
+         (*(char*)__csonar_ptr) operator (char)(val);           \
+       else if( sizeof( *__csonar_ptr ) == sizeof(short) )      \
+          (*(short*)__csonar_ptr) operator (short)(val);        \
+       else if( sizeof( *__csonar_ptr ) == sizeof(int) )        \
+         (*(int*)__csonar_ptr) operator (int)(val);             \
+       else if( sizeof( *__csonar_ptr ) == sizeof(long) )       \
+         (*(long*)__csonar_ptr) operator (long)(val);           \
+       else                                                     \
+         (*(long long*)__csonar_ptr) operator (long long)(val); \
+       __csonar_old; })                                         \
+        )
+
+#define __sync_fetch_and_or(ptr, val, ...)      \
+    CS__sync_fetch_and_BITOP( |=, ptr, val )
+
+#define __sync_fetch_and_and(ptr, val, ...)     \
+    CS__sync_fetch_and_BITOP( &=, ptr, val )
+
+#define __sync_fetch_and_xor(ptr, val, ...)     \
+    CS__sync_fetch_and_BITOP( ^=, ptr, val )
+
+#define __sync_fetch_and_nand(ptr, val, ...)                            \
+    __CSONAR_GCC_ATOMIC_WRAP(                                           \
+    ({ typeof(ptr) __csonar_ptr = (ptr);                                \
+       typeof(*__csonar_ptr) __csonar_old = *__csonar_ptr;              \
+       if( sizeof( *__csonar_ptr ) == sizeof(char) )                    \
+           (*(char*)__csonar_ptr) = ~( *(char*)__csonar_ptr & (char)(val) ); \
+       else if( sizeof( *__csonar_ptr ) == sizeof(short) )              \
+           (*(short*)__csonar_ptr) = ~( *(short*)__csonar_ptr & (short)(val) ); \
+       else if( sizeof( *__csonar_ptr ) == sizeof(int) )                \
+           (*(int*)__csonar_ptr) = ~( *(int*)__csonar_ptr & (int)(val) ); \
+       else if( sizeof( *__csonar_ptr ) == sizeof(long) )               \
+           (*(long*)__csonar_ptr) = ~( *(long*)__csonar_ptr & (long)(val) ); \
+       else                                                             \
+           (*(long long*)__csonar_ptr) = ~( *(long long*)__csonar_ptr & (long long)(val) ); \
+       __csonar_old; })                                                 \
+        )
+
+#define __csonar_sync_add_and_fetch(ptr, val, ...) \
+    ({ typeof(ptr) __csonar_ptr = (ptr); *__csonar_ptr += (val); *__csonar_ptr; })
+#define __sync_add_and_fetch(ptr, val, ...) __CSONAR_GCC_ATOMIC_WRAP( __csonar_sync_add_and_fetch(ptr, val) )
+
+#define __csonar_sync_sub_and_fetch(ptr, val, ...) \
+    ({ typeof(ptr) __csonar_ptr = (ptr); *__csonar_ptr -= (val); *__csonar_ptr; })
+#define __sync_sub_and_fetch(ptr, val, ...) __CSONAR_GCC_ATOMIC_WRAP( __csonar_sync_sub_and_fetch(ptr, val) )
+
+#define CS__sync_BITOP_and_fetch( operator, ptr, val )          \
+    __CSONAR_GCC_ATOMIC_WRAP(                                   \
+    ({ typeof(ptr) __csonar_ptr = (ptr); \
+       if( sizeof( *__csonar_ptr ) == sizeof(char) )            \
+         (*(char*)__csonar_ptr) operator (char)(val);           \
+       else if( sizeof( *__csonar_ptr ) == sizeof(short) )      \
+          (*(short*)__csonar_ptr) operator (short)(val);        \
+       else if( sizeof( *__csonar_ptr ) == sizeof(int) )        \
+         (*(int*)__csonar_ptr) operator (int)(val);             \
+       else if( sizeof( *__csonar_ptr ) == sizeof(long) )       \
+         (*(long*)__csonar_ptr) operator (long)(val);           \
+       else                                                     \
+         (*(long long*)__csonar_ptr) operator (long long)(val); \
+       *__csonar_ptr; })                                        \
+        )
+
+#define __sync_or_and_fetch(ptr, val, ...) \
+    CS__sync_BITOP_and_fetch( |=, ptr, val )
+
+#define __sync_and_and_fetch(ptr, val, ...) \
+    CS__sync_BITOP_and_fetch( &=, ptr, val )
+
+#define __sync_xor_and_fetch(ptr, val, ...) \
+    CS__sync_BITOP_and_fetch( ^=, ptr, val )
+
+#define __sync_nand_and_fetch(ptr, val, ...)                            \
+    __CSONAR_GCC_ATOMIC_WRAP(                                           \
+    ({ typeof(ptr) __csonar_ptr = (ptr);                                \
+       if( sizeof( *__csonar_ptr ) == sizeof(char) )                    \
+           (*(char*)__csonar_ptr) = ~( *(char*)__csonar_ptr & (char)(val) ); \
+       else if( sizeof( *__csonar_ptr ) == sizeof(short) )              \
+           (*(short*)__csonar_ptr) = ~( *(short*)__csonar_ptr & (short)(val) ); \
+       else if( sizeof( *__csonar_ptr ) == sizeof(int) )                \
+           (*(int*)__csonar_ptr) = ~( *(int*)__csonar_ptr & (int)(val) ); \
+       else if( sizeof( *__csonar_ptr ) == sizeof(long) )               \
+           (*(long*)__csonar_ptr) = ~( *(long*)__csonar_ptr & (long)(val) ); \
+       else                                                             \
+           (*(long long*)__csonar_ptr) = ~( *(long long*)__csonar_ptr & (long long)(val) ); \
+       *__csonar_ptr; })                                                \
+        )
+
+#define __csonar_sync_bool_compare_and_swap(ptr, oldval, newval, ...) \
+    ({ typeof(ptr) __csonar_ptr = (ptr); (*__csonar_ptr == oldval) ? ( *__csonar_ptr = (newval), 1 ) : 0; })
+#define __sync_bool_compare_and_swap(ptr, oldval, newval, ...) __CSONAR_GCC_ATOMIC_WRAP( __csonar_sync_bool_compare_and_swap(ptr, oldval, newval) )
+
+#define __csonar_sync_val_compare_and_swap(ptr, oldval, newval, ...) \
+    ({ typeof(ptr) __csonar_ptr = (ptr); typeof(*__csonar_ptr) __csonar_old = *__csonar_ptr; (*__csonar_ptr == (oldval)) ? ( *__csonar_ptr = (newval), __csonar_old ) : __csonar_old; })
+#define __sync_val_compare_and_swap(ptr, oldval, newval, ...) __CSONAR_GCC_ATOMIC_WRAP( __csonar_sync_val_compare_and_swap(ptr, oldval, newval) )
+
+#define __csonar_sync_lock_test_and_set(ptr, newval, ...) \
+    ({ typeof(ptr) __csonar_ptr = (ptr); typeof(*__csonar_ptr) __csonar_old = *__csonar_ptr; *__csonar_ptr = (newval); __csonar_old; })
+#define __sync_lock_test_and_set(ptr, newval, ...) __CSONAR_GCC_ATOMIC_WRAP( __csonar_sync_lock_test_and_set(ptr, newval) )
+
+/* From
+   http://gcc.gnu.org/onlinedocs/gcc/_005f_005fatomic-Builtins.html
+   
+   Looks like __atomic_XXX replaces __sync_XXX at gcc 4.7
+*/
+#if  __GNUC__ > 4 || ( __GNUC__ == 4 && __GNUC_MINOR__ >= 7 )
+
+#define __atomic_load_n(ptr, memmodel) (__CSONAR_GCC_ATOMIC_WRAP(*(ptr)))
+
+#define __atomic_load(ptr, ret, memmodel) (__CSONAR_GCC_ATOMIC_WRAP(*(ret) = *(ptr)))
+
+#define __atomic_store_n(ptr, val, memmodel) (__CSONAR_GCC_ATOMIC_WRAP_VOID(*(ptr) = (val)))
+
+#define __atomic_store(ptr, val, memmodel) (__CSONAR_GCC_ATOMIC_WRAP_VOID(*(ptr) = *(val)))
+
+#define __atomic_exchange_n(ptr, val, memmodel) \
+    (__CSONAR_GCC_ATOMIC_WRAP( \
+    ({ typeof(ptr) __csonar_ptr = (ptr); typeof(*ptr) __csonar_old = *__csonar_ptr; *__csonar_ptr = (val); __csonar_old; }) \
+    ))
+
+#define __atomic_exchange(ptr, val, ret, memmodel) \
+    (__CSONAR_GCC_ATOMIC_WRAP( \
+    ({ typeof(ptr) __csonar_ptr = (ptr); *(ret) = *__csonar_ptr; *__csonar_ptr = *(val); 0; }) \
+    ))
+
+#define __atomic_compare_exchange_n(ptr, expected, desired, weak, success_memmodel, failure_memmodel) \
+(__CSONAR_GCC_ATOMIC_WRAP(                                              \
+({                                                                      \
+    typeof(ptr) __csonar_ptr = (ptr);                                   \
+    typeof(expected) __csonar_expected = (expected);                    \
+    int __csonar_rv;                                                    \
+    if( *__csonar_ptr == *__csonar_expected ) {                         \
+        *__csonar_ptr = (desired);                                      \
+        __csonar_rv = 1;                                                \
+    } else {                                                            \
+        *__csonar_expected = *__csonar_ptr;                             \
+        __csonar_rv = 0;                                                \
+    }                                                                   \
+    __csonar_rv;                                                        \
+})                                                                      \
+))
+
+#define __atomic_compare_exchange(ptr, expected, desired, weak, success_memmodel, failure_memmodel) \
+(__CSONAR_GCC_ATOMIC_WRAP(                                              \
+({                                                                      \
+    typeof(ptr) __csonar_ptr = (ptr);                                   \
+    typeof(expected) __csonar_expected = (expected);                    \
+    int __csonar_rv;                                                    \
+    if( *__csonar_ptr == *__csonar_expected ) {                         \
+        *__csonar_ptr = *(desired);                                     \
+        __csonar_rv = 1;                                                \
+    } else {                                                            \
+        *__csonar_expected = *__csonar_ptr;                             \
+        __csonar_rv = 0;                                                \
+    }                                                                   \
+    __csonar_rv;                                                        \
+})                                                                      \
+))
+
+#define __atomic_add_fetch( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); *__csonar_ptr += (val); *__csonar_ptr; }) ))
+
+#define __atomic_sub_fetch( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); *__csonar_ptr -= (val); *__csonar_ptr; }) ))
+
+#define __atomic_and_fetch( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); *__csonar_ptr &= (val); *__csonar_ptr; }) ))
+
+#define __atomic_xor_fetch( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); *__csonar_ptr ^= (val); *__csonar_ptr; }) ))
+
+#define __atomic_or_fetch( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); *__csonar_ptr |= (val); *__csonar_ptr; }) ))
+
+#define __atomic_nand_fetch( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); *__csonar_ptr = ~(*__csonar_ptr & (val) ); *__csonar_ptr; }) ))
+  
+#define __atomic_fetch_add( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); typeof(*__csonar_ptr) __csonar_old = *__csonar_ptr; *__csonar_ptr += (val); __csonar_old; }) ))
+
+#define __atomic_fetch_sub( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); typeof(*__csonar_ptr) __csonar_old = *__csonar_ptr; *__csonar_ptr -= (val); __csonar_old; }) ))
+
+#define __atomic_fetch_and( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); typeof(*__csonar_ptr) __csonar_old = *__csonar_ptr; *__csonar_ptr &= (val); __csonar_old; }) ))
+
+#define __atomic_fetch_xor( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); typeof(*__csonar_ptr) __csonar_old = *__csonar_ptr; *__csonar_ptr ^= (val); __csonar_old; }) ))
+
+#define __atomic_fetch_or( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); typeof(*__csonar_ptr) __csonar_old = *__csonar_ptr; *__csonar_ptr |= (val); __csonar_old; }) ))
+
+#define __atomic_fetch_nand( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); typeof(*__csonar_ptr) __csonar_old = *__csonar_ptr; *__csonar_ptr = ~( *__csonar_ptr & (val) ); __csonar_old; }) ))
+
+#define __atomic_test_and_set( ptr, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ volatile char * __csonar_ptr = (volatile char*)(ptr); char __csonar_old = *__csonar_ptr; *__csonar_ptr = 1; __csonar_old ? 1 : 0; }) ))
+
+#define __atomic_clear(ptr, memmodel) ((__CSONAR_GCC_ATOMIC_WRAP(*ptr = 0, (void)0)))
+
+void __atomic_thread_fence (int memmodel);
+void __atomic_thread_fence (int memmodel);
+
+#define __atomic_always_lock_free(size, ptr) (1)
+
+#define __atomic_is_lock_free(size, ptr) (1)
+
+#endif /* __GNUC__ > 4 || ( __GNUC__ == 4 && __GNUC_MINOR__ >= 7 ) */
+
+#if defined(__clang__)
+
+#define __c11_atomic_exchange( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); typeof(*__csonar_ptr) __csonar_old = *__csonar_ptr; *__csonar_ptr = (val); __csonar_old; }) ))
+
+#define __c11_atomic_store( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP_VOID( *(ptr) = (val) ))
+
+#define __c11_atomic_load( ptr, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( (*ptr) ))
+
+#define __c11_atomic_thread_fence(memmodel) ((void)0)
+#define __c11_atomic_signal_fence(memmodel) ((void)0)
+#define __c11_atomic_is_lock_free(size) ((size)<=sizeof(void*))
+#define __c11_atomic_compare_exchange_weak(ptr, expected, desired, success_memmodel, failure_memmodel) \
+(__CSONAR_GCC_ATOMIC_WRAP(                                              \
+({                                                                      \
+    typeof(ptr) __csonar_ptr = (ptr);                                   \
+    typeof(expected) __csonar_expected = (expected);                    \
+    int __csonar_rv;                                                    \
+    if( *__csonar_ptr == *__csonar_expected ) {                         \
+        *__csonar_ptr = (desired);                                      \
+        __csonar_rv = 1;                                                \
+    } else {                                                            \
+        *__csonar_expected = *__csonar_ptr;                             \
+        __csonar_rv = 0;                                                \
+    }                                                                   \
+    __csonar_rv;                                                        \
+})                                                                      \
+))
+
+#define __c11_atomic_compare_exchange_strong(ptr, expected, desired, success_memmodel, failure_memmodel) \
+    __c11_atomic_compare_exchange_weak(ptr, expected, desired, success_memmodel, failure_memmodel)
+
+#define __c11_atomic_add_fetch( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); *__csonar_ptr += (val); *__csonar_ptr; }) ))
+
+#define __c11_atomic_sub_fetch( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); *__csonar_ptr -= (val); *__csonar_ptr; }) ))
+
+#define __c11_atomic_and_fetch( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); *__csonar_ptr &= (val); *__csonar_ptr; }) ))
+
+#define __c11_atomic_xor_fetch( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); *__csonar_ptr ^= (val); *__csonar_ptr; }) ))
+
+#define __c11_atomic_or_fetch( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); *__csonar_ptr |= (val); *__csonar_ptr; }) ))
+
+#define __c11_atomic_nand_fetch( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); *__csonar_ptr = ~(*__csonar_ptr & (val) ); *__csonar_ptr; }) ))
+  
+#define __c11_atomic_fetch_add( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); typeof(*__csonar_ptr) __csonar_old = *__csonar_ptr; *__csonar_ptr += (val); __csonar_old; }) ))
+
+#define __c11_atomic_fetch_sub( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); typeof(*__csonar_ptr) __csonar_old = *__csonar_ptr; *__csonar_ptr -= (val); __csonar_old; }) ))
+
+#define __c11_atomic_fetch_and( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); typeof(*__csonar_ptr) __csonar_old = *__csonar_ptr; *__csonar_ptr &= (val); __csonar_old; }) ))
+
+#define __c11_atomic_fetch_xor( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); typeof(*__csonar_ptr) __csonar_old = *__csonar_ptr; *__csonar_ptr ^= (val); __csonar_old; }) ))
+
+#define __c11_atomic_fetch_or( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); typeof(*__csonar_ptr) __csonar_old = *__csonar_ptr; *__csonar_ptr |= (val); __csonar_old; }) ))
+
+#define __c11_atomic_fetch_nand( ptr, val, memmodel ) \
+    (__CSONAR_GCC_ATOMIC_WRAP( ({ typeof(ptr) __csonar_ptr = (ptr); typeof(*__csonar_ptr) __csonar_old = *__csonar_ptr; *__csonar_ptr = ~( *__csonar_ptr & (val) ); __csonar_old; }) ))
+
+/* documentation claims this is not actually an atomic operation, so no wrapper */
+#define __c11_atomic_init(ptr, desired) ((*ptr) = (desired))
+
+#endif
+
+/* Misc */
+#ifdef __x86_64__
+
+#define __builtin_ia32_movnti64(dst, src) (__CSONAR_GCC_ATOMIC_WRAP(*(dst) = (src)))
+
+#endif

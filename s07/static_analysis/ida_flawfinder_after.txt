@@ -1,0 +1,937 @@
+Flawfinder version 2.0.8, (C) 2001-2017 David A. Wheeler.
+Number of rules (primarily dangerous function names) in C/C++ ruleset: 223
+decomp/ida_decompiled.c:393:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+  srand(v3);
+decomp/ida_decompiled.c:277:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+char s[3] = { '\0', '\0', '\0' }; // idb
+decomp/ida_decompiled.c:569:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-40h]
+decomp/ida_decompiled.c:585:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-40h]
+decomp/ida_decompiled.c:601:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:630:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:658:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-C0h]
+decomp/ida_decompiled.c:683:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-C0h]
+decomp/ida_decompiled.c:714:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-40h]
+decomp/ida_decompiled.c:744:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-40h]
+decomp/ida_decompiled.c:780:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:801:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:822:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:866:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:891:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:920:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:964:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:985:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:1012:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-40h]
+decomp/ida_decompiled.c:1028:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-40h]
+decomp/ida_decompiled.c:1044:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:1064:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:1090:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:1115:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:1144:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:1176:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-40h]
+decomp/ida_decompiled.c:1194:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-40h]
+decomp/ida_decompiled.c:1212:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-40h]
+decomp/ida_decompiled.c:1245:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-40h]
+decomp/ida_decompiled.c:1314:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-50h]
+decomp/ida_decompiled.c:1334:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-50h]
+decomp/ida_decompiled.c:1354:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:1379:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:1408:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:1440:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-D0h]
+decomp/ida_decompiled.c:1470:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-D0h]
+decomp/ida_decompiled.c:1506:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-40h]
+decomp/ida_decompiled.c:1524:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-40h]
+decomp/ida_decompiled.c:1608:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:1629:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:1650:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:1678:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-C0h]
+decomp/ida_decompiled.c:1703:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-C0h]
+decomp/ida_decompiled.c:1808:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-40h]
+decomp/ida_decompiled.c:1824:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-40h]
+decomp/ida_decompiled.c:1852:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:1877:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:1906:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:1938:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-40h]
+decomp/ida_decompiled.c:1956:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-40h]
+decomp/ida_decompiled.c:1986:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2024:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2058:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2087:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2108:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2129:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2187:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2208:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2235:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2260:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2289:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2355:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2376:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2397:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2437:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2461:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2489:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2558:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2586:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2624:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-40h]
+decomp/ida_decompiled.c:2643:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-40h]
+decomp/ida_decompiled.c:2662:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2686:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2714:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2745:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2770:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2799:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:2831:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-40h]
+decomp/ida_decompiled.c:2859:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-40h]
+decomp/ida_decompiled.c:2893:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-40h]
+decomp/ida_decompiled.c:2909:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-40h]
+decomp/ida_decompiled.c:2959:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-D0h]
+decomp/ida_decompiled.c:2984:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-D0h]
+decomp/ida_decompiled.c:3015:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:3036:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:3057:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:3085:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-40h]
+decomp/ida_decompiled.c:3101:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v3[8]; // [rsp+10h] [rbp-40h]
+decomp/ida_decompiled.c:3129:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:3151:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:3173:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:3244:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:3265:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char v2[8]; // [rsp+0h] [rbp-B0h]
+decomp/ida_decompiled.c:576:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(a1);
+decomp/ida_decompiled.c:592:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(a1);
+decomp/ida_decompiled.c:621:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:643:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:674:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:699:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:721:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(a1);
+decomp/ida_decompiled.c:751:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(a1);
+decomp/ida_decompiled.c:792:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:813:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:834:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:881:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:910:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:935:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:976:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:997:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:1019:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(a1);
+decomp/ida_decompiled.c:1035:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(a1);
+decomp/ida_decompiled.c:1055:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen(s);
+decomp/ida_decompiled.c:1075:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen(s);
+decomp/ida_decompiled.c:1105:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:1134:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:1159:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:1185:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(s);
+decomp/ida_decompiled.c:1203:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(s);
+decomp/ida_decompiled.c:1221:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_snprintf_45_badData);
+decomp/ida_decompiled.c:1254:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_snprintf_45_goodG2BData);
+decomp/ida_decompiled.c:1325:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(s);
+decomp/ida_decompiled.c:1345:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(s);
+decomp/ida_decompiled.c:1369:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:1398:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:1423:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:1461:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen(v7);
+decomp/ida_decompiled.c:1491:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen(v7);
+decomp/ida_decompiled.c:1515:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(a1);
+decomp/ida_decompiled.c:1533:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(a1);
+decomp/ida_decompiled.c:1620:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:1641:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:1662:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:1694:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:1719:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:1815:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(a1);
+decomp/ida_decompiled.c:1831:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(a1);
+decomp/ida_decompiled.c:1867:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:1896:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:1921:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:1947:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(s);
+decomp/ida_decompiled.c:1965:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(s);
+decomp/ida_decompiled.c:1998:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen(s);
+decomp/ida_decompiled.c:2036:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen(s);
+decomp/ida_decompiled.c:2070:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen(s);
+decomp/ida_decompiled.c:2099:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:2120:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:2141:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:2199:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:2220:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:2250:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:2279:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:2304:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:2367:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:2388:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:2409:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:2452:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:2480:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:2504:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:2569:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen(s);
+decomp/ida_decompiled.c:2597:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen(s);
+decomp/ida_decompiled.c:2633:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_snprintf_68_badData);
+decomp/ida_decompiled.c:2652:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_snprintf_68_goodG2BData);
+decomp/ida_decompiled.c:2677:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:2705:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:2729:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:2760:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:2789:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:2814:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:2838:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(a1);
+decomp/ida_decompiled.c:2866:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(a1);
+decomp/ida_decompiled.c:2900:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(a1);
+decomp/ida_decompiled.c:2916:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(a1);
+decomp/ida_decompiled.c:2975:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:3000:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:3027:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:3048:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:3069:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:3092:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(a1);
+decomp/ida_decompiled.c:3108:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v1 = strlen(a1);
+decomp/ida_decompiled.c:3141:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen(s);
+decomp/ida_decompiled.c:3163:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen(s);
+decomp/ida_decompiled.c:3185:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen(s);
+decomp/ida_decompiled.c:3256:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+decomp/ida_decompiled.c:3277:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+  v0 = strlen((const char *)s);
+
+ANALYSIS SUMMARY:
+
+Hits = 184
+Lines analyzed = 3707 in approximately 0.08 seconds (44749 lines/second)
+Physical Source Lines of Code (SLOC) = 3010
+Hits@level = [0] 105 [1]  91 [2]  92 [3]   1 [4]   0 [5]   0
+Hits@level+ = [0+] 289 [1+] 184 [2+]  93 [3+]   1 [4+]   0 [5+]   0
+Hits/KSLOC@level+ = [0+] 96.0133 [1+] 61.1296 [2+] 30.897 [3+] 0.332226 [4+]   0 [5+]   0
+Minimum risk level = 1
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!
+See 'Secure Programming HOWTO'
+(https://dwheeler.com/secure-programs) for more information.

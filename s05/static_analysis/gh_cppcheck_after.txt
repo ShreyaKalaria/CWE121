@@ -1,0 +1,184 @@
+[decomp/ghidra_decompiled.c:914] -> [decomp/ghidra_decompiled.c:913]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:915] -> [decomp/ghidra_decompiled.c:913]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:956] -> [decomp/ghidra_decompiled.c:955]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:957] -> [decomp/ghidra_decompiled.c:955]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:991] -> [decomp/ghidra_decompiled.c:990]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:992] -> [decomp/ghidra_decompiled.c:990]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:1931] -> [decomp/ghidra_decompiled.c:1930]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:1932] -> [decomp/ghidra_decompiled.c:1930]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:1968] -> [decomp/ghidra_decompiled.c:1967]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:1969] -> [decomp/ghidra_decompiled.c:1967]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:2221] -> [decomp/ghidra_decompiled.c:2220]: (warning) Either the condition 'local_30<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:2222] -> [decomp/ghidra_decompiled.c:2220]: (warning) Either the condition 'local_30<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:2259] -> [decomp/ghidra_decompiled.c:2258]: (warning) Either the condition 'local_30<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:2260] -> [decomp/ghidra_decompiled.c:2258]: (warning) Either the condition 'local_30<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:2474] -> [decomp/ghidra_decompiled.c:2473]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:2475] -> [decomp/ghidra_decompiled.c:2473]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:2518] -> [decomp/ghidra_decompiled.c:2517]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:2519] -> [decomp/ghidra_decompiled.c:2517]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:2558] -> [decomp/ghidra_decompiled.c:2557]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:2559] -> [decomp/ghidra_decompiled.c:2557]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:2599] -> [decomp/ghidra_decompiled.c:2598]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:2600] -> [decomp/ghidra_decompiled.c:2598]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:2632] -> [decomp/ghidra_decompiled.c:2631]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:2633] -> [decomp/ghidra_decompiled.c:2631]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:2665] -> [decomp/ghidra_decompiled.c:2664]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:2666] -> [decomp/ghidra_decompiled.c:2664]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:2812] -> [decomp/ghidra_decompiled.c:2811]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:2813] -> [decomp/ghidra_decompiled.c:2811]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:2854] -> [decomp/ghidra_decompiled.c:2853]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:2855] -> [decomp/ghidra_decompiled.c:2853]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:2889] -> [decomp/ghidra_decompiled.c:2888]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:2890] -> [decomp/ghidra_decompiled.c:2888]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:3164] -> [decomp/ghidra_decompiled.c:3163]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:3165] -> [decomp/ghidra_decompiled.c:3163]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:3197] -> [decomp/ghidra_decompiled.c:3196]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:3198] -> [decomp/ghidra_decompiled.c:3196]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:3508] -> [decomp/ghidra_decompiled.c:3507]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:3509] -> [decomp/ghidra_decompiled.c:3507]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:3552] -> [decomp/ghidra_decompiled.c:3551]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:3553] -> [decomp/ghidra_decompiled.c:3551]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:3592] -> [decomp/ghidra_decompiled.c:3591]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:3593] -> [decomp/ghidra_decompiled.c:3591]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:3633] -> [decomp/ghidra_decompiled.c:3632]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:3634] -> [decomp/ghidra_decompiled.c:3632]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:3666] -> [decomp/ghidra_decompiled.c:3665]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:3667] -> [decomp/ghidra_decompiled.c:3665]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:3699] -> [decomp/ghidra_decompiled.c:3698]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:3700] -> [decomp/ghidra_decompiled.c:3698]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:3938] -> [decomp/ghidra_decompiled.c:3937]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:3939] -> [decomp/ghidra_decompiled.c:3937]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:3973] -> [decomp/ghidra_decompiled.c:3972]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:3974] -> [decomp/ghidra_decompiled.c:3972]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:4006] -> [decomp/ghidra_decompiled.c:4005]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:4007] -> [decomp/ghidra_decompiled.c:4005]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:4410] -> [decomp/ghidra_decompiled.c:4409]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:4411] -> [decomp/ghidra_decompiled.c:4409]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:4452] -> [decomp/ghidra_decompiled.c:4451]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:4453] -> [decomp/ghidra_decompiled.c:4451]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:4487] -> [decomp/ghidra_decompiled.c:4486]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:4488] -> [decomp/ghidra_decompiled.c:4486]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:4630] -> [decomp/ghidra_decompiled.c:4629]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_378[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:4631] -> [decomp/ghidra_decompiled.c:4629]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_378[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:4671] -> [decomp/ghidra_decompiled.c:4670]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_378[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:4672] -> [decomp/ghidra_decompiled.c:4670]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_378[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:5475] -> [decomp/ghidra_decompiled.c:5474]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:5476] -> [decomp/ghidra_decompiled.c:5474]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:5510] -> [decomp/ghidra_decompiled.c:5509]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:5511] -> [decomp/ghidra_decompiled.c:5509]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:5543] -> [decomp/ghidra_decompiled.c:5542]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:5544] -> [decomp/ghidra_decompiled.c:5542]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:5587] -> [decomp/ghidra_decompiled.c:5586]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:5588] -> [decomp/ghidra_decompiled.c:5586]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:5624] -> [decomp/ghidra_decompiled.c:5623]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:5625] -> [decomp/ghidra_decompiled.c:5623]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:7236] -> [decomp/ghidra_decompiled.c:7235]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:7237] -> [decomp/ghidra_decompiled.c:7235]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:7278] -> [decomp/ghidra_decompiled.c:7277]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:7279] -> [decomp/ghidra_decompiled.c:7277]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:7313] -> [decomp/ghidra_decompiled.c:7312]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:7314] -> [decomp/ghidra_decompiled.c:7312]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:7784] -> [decomp/ghidra_decompiled.c:7783]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:7785] -> [decomp/ghidra_decompiled.c:7783]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:7817] -> [decomp/ghidra_decompiled.c:7816]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:7818] -> [decomp/ghidra_decompiled.c:7816]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:7850] -> [decomp/ghidra_decompiled.c:7849]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:7851] -> [decomp/ghidra_decompiled.c:7849]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:7980] -> [decomp/ghidra_decompiled.c:7979]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:7981] -> [decomp/ghidra_decompiled.c:7979]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:8013] -> [decomp/ghidra_decompiled.c:8012]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:8014] -> [decomp/ghidra_decompiled.c:8012]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:9002] -> [decomp/ghidra_decompiled.c:9001]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:9003] -> [decomp/ghidra_decompiled.c:9001]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:9039] -> [decomp/ghidra_decompiled.c:9038]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:9040] -> [decomp/ghidra_decompiled.c:9038]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:9338] -> [decomp/ghidra_decompiled.c:9337]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:9339] -> [decomp/ghidra_decompiled.c:9337]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:9380] -> [decomp/ghidra_decompiled.c:9379]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:9381] -> [decomp/ghidra_decompiled.c:9379]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:9415] -> [decomp/ghidra_decompiled.c:9414]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:9416] -> [decomp/ghidra_decompiled.c:9414]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:11539] -> [decomp/ghidra_decompiled.c:11538]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:11540] -> [decomp/ghidra_decompiled.c:11538]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:11572] -> [decomp/ghidra_decompiled.c:11571]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:11573] -> [decomp/ghidra_decompiled.c:11571]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:11856] -> [decomp/ghidra_decompiled.c:11855]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:11857] -> [decomp/ghidra_decompiled.c:11855]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:11898] -> [decomp/ghidra_decompiled.c:11897]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:11899] -> [decomp/ghidra_decompiled.c:11897]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:11933] -> [decomp/ghidra_decompiled.c:11932]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/ghidra_decompiled.c:11934] -> [decomp/ghidra_decompiled.c:11932]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/ghidra_decompiled.c:12444]: (warning) %s in format string (no. 1) requires 'char *' but the argument type is 'signed long'.
+[decomp/ghidra_decompiled.c:12641]: (error) Shifting signed 32-bit value by 31 bits is undefined behaviour
+[decomp/ghidra_decompiled.c:951]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:1477]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:1536]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:1820]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:1821]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:1869]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:1870]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:2123]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:2182]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:2849]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:2928]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:2929]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:2977]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:2978]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:4447]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:4532]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:4591]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:5126]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:5127]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:5175]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:5176]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:5810]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:5811]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:5859]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:5860]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:6170]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:6171]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:6219]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:6220]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:6964]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:7023]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:7273]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:8218]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:8219]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:8267]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:8268]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:8490]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:8491]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:8539]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:8540]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:9375]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:9559]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:9560]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:9608]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:9609]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:10071]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:10072]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:10120]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:10121]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:10563]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:10564]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:10612]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:10613]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:10829]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:10888]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:11001]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:11060]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:11456]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:11457]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:11505]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:11506]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:11893]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:11972]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:11973]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:12021]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:12022]: (error) Uninitialized variable: local_10
+[decomp/ghidra_decompiled.c:953]: (error) Uninitialized variable: puVar2
+[decomp/ghidra_decompiled.c:2851]: (error) Uninitialized variable: puVar2
+[decomp/ghidra_decompiled.c:4449]: (error) Uninitialized variable: puVar2
+[decomp/ghidra_decompiled.c:7275]: (error) Uninitialized variable: puVar2
+[decomp/ghidra_decompiled.c:9377]: (error) Uninitialized variable: puVar2
+[decomp/ghidra_decompiled.c:11895]: (error) Uninitialized variable: puVar2

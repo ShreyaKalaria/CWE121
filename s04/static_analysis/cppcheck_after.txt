@@ -1,0 +1,688 @@
+[decomp/Decompiled.c:5190] -> [decomp/Decompiled.c:5189]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:5191] -> [decomp/Decompiled.c:5189]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:5223] -> [decomp/Decompiled.c:5222]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:5224] -> [decomp/Decompiled.c:5222]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:5256] -> [decomp/Decompiled.c:5255]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:5257] -> [decomp/Decompiled.c:5255]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:9146] -> [decomp/Decompiled.c:9145]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:9147] -> [decomp/Decompiled.c:9145]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:9188] -> [decomp/Decompiled.c:9187]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:9189] -> [decomp/Decompiled.c:9187]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:9223] -> [decomp/Decompiled.c:9222]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:9224] -> [decomp/Decompiled.c:9222]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:10298] -> [decomp/Decompiled.c:10297]: (warning) Either the condition 'local_30<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:10299] -> [decomp/Decompiled.c:10297]: (warning) Either the condition 'local_30<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:10336] -> [decomp/Decompiled.c:10335]: (warning) Either the condition 'local_30<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:10337] -> [decomp/Decompiled.c:10335]: (warning) Either the condition 'local_30<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:12428] -> [decomp/Decompiled.c:12427]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:12429] -> [decomp/Decompiled.c:12427]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:12465] -> [decomp/Decompiled.c:12464]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:12466] -> [decomp/Decompiled.c:12464]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:13082] -> [decomp/Decompiled.c:13081]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:13083] -> [decomp/Decompiled.c:13081]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:13124] -> [decomp/Decompiled.c:13123]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:13125] -> [decomp/Decompiled.c:13123]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:13159] -> [decomp/Decompiled.c:13158]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:13160] -> [decomp/Decompiled.c:13158]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:19031] -> [decomp/Decompiled.c:19030]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:19032] -> [decomp/Decompiled.c:19030]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:19073] -> [decomp/Decompiled.c:19072]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:19074] -> [decomp/Decompiled.c:19072]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:19108] -> [decomp/Decompiled.c:19107]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:19109] -> [decomp/Decompiled.c:19107]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:20914] -> [decomp/Decompiled.c:20913]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:20915] -> [decomp/Decompiled.c:20913]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:20947] -> [decomp/Decompiled.c:20946]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:20948] -> [decomp/Decompiled.c:20946]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:21409] -> [decomp/Decompiled.c:21408]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:21410] -> [decomp/Decompiled.c:21408]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:21442] -> [decomp/Decompiled.c:21441]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:21443] -> [decomp/Decompiled.c:21441]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:21475] -> [decomp/Decompiled.c:21474]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:21476] -> [decomp/Decompiled.c:21474]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:24365] -> [decomp/Decompiled.c:24364]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:24366] -> [decomp/Decompiled.c:24364]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:24398] -> [decomp/Decompiled.c:24397]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:24399] -> [decomp/Decompiled.c:24397]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:25969] -> [decomp/Decompiled.c:25968]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:25970] -> [decomp/Decompiled.c:25968]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:26004] -> [decomp/Decompiled.c:26003]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:26005] -> [decomp/Decompiled.c:26003]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:26037] -> [decomp/Decompiled.c:26036]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:26038] -> [decomp/Decompiled.c:26036]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:31868] -> [decomp/Decompiled.c:31867]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:31869] -> [decomp/Decompiled.c:31867]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:31910] -> [decomp/Decompiled.c:31909]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:31911] -> [decomp/Decompiled.c:31909]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:31945] -> [decomp/Decompiled.c:31944]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:31946] -> [decomp/Decompiled.c:31944]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:32888] -> [decomp/Decompiled.c:32887]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:32889] -> [decomp/Decompiled.c:32887]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:32925] -> [decomp/Decompiled.c:32924]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:32926] -> [decomp/Decompiled.c:32924]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:39078] -> [decomp/Decompiled.c:39077]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_378[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:39079] -> [decomp/Decompiled.c:39077]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_378[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:39119] -> [decomp/Decompiled.c:39118]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_378[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:39120] -> [decomp/Decompiled.c:39118]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_378[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:40155] -> [decomp/Decompiled.c:40154]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:40156] -> [decomp/Decompiled.c:40154]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:40190] -> [decomp/Decompiled.c:40189]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:40191] -> [decomp/Decompiled.c:40189]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:40223] -> [decomp/Decompiled.c:40222]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:40224] -> [decomp/Decompiled.c:40222]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:40267] -> [decomp/Decompiled.c:40266]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:40268] -> [decomp/Decompiled.c:40266]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:40304] -> [decomp/Decompiled.c:40303]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:40305] -> [decomp/Decompiled.c:40303]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:44302] -> [decomp/Decompiled.c:44301]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:44303] -> [decomp/Decompiled.c:44301]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:44344] -> [decomp/Decompiled.c:44343]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:44345] -> [decomp/Decompiled.c:44343]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:44379] -> [decomp/Decompiled.c:44378]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:44380] -> [decomp/Decompiled.c:44378]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:48257] -> [decomp/Decompiled.c:48256]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:48258] -> [decomp/Decompiled.c:48256]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:48301] -> [decomp/Decompiled.c:48300]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:48302] -> [decomp/Decompiled.c:48300]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:48341] -> [decomp/Decompiled.c:48340]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:48342] -> [decomp/Decompiled.c:48340]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:48382] -> [decomp/Decompiled.c:48381]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:48383] -> [decomp/Decompiled.c:48381]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:48415] -> [decomp/Decompiled.c:48414]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:48416] -> [decomp/Decompiled.c:48414]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:48448] -> [decomp/Decompiled.c:48447]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:48449] -> [decomp/Decompiled.c:48447]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:49190] -> [decomp/Decompiled.c:49189]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:49191] -> [decomp/Decompiled.c:49189]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:49232] -> [decomp/Decompiled.c:49231]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:49233] -> [decomp/Decompiled.c:49231]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:49267] -> [decomp/Decompiled.c:49266]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:49268] -> [decomp/Decompiled.c:49266]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:49819] -> [decomp/Decompiled.c:49818]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:49820] -> [decomp/Decompiled.c:49818]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:49852] -> [decomp/Decompiled.c:49851]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:49853] -> [decomp/Decompiled.c:49851]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:51209] -> [decomp/Decompiled.c:51208]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:51210] -> [decomp/Decompiled.c:51208]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:51253] -> [decomp/Decompiled.c:51252]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:51254] -> [decomp/Decompiled.c:51252]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:51293] -> [decomp/Decompiled.c:51292]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:51294] -> [decomp/Decompiled.c:51292]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:52832]: (warning) %s in format string (no. 1) requires 'char *' but the argument type is 'signed long'.
+[decomp/Decompiled.c:53029]: (error) Shifting signed 32-bit value by 31 bits is undefined behaviour
+[decomp/Decompiled.c:3254]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:3341]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:3695]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:3732]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:3769]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:4036]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:4122]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:4415]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:4502]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:4772]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:4813]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:5109]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:5146]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:5631]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:5671]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:5711]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:6035]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:6122]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:7058]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:7096]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:7133]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:7443]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:7485]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:7804]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:7841]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:7878]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:7925]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:8012]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:8063]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:8108]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:8328]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:8414]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:8569]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:8611]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:8932]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:8971]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:9008]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:9056]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:9097]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:9591]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:9678]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:9723]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:9760]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:9797]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:10163]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:10200]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:10563]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:10649]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:10950]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:10995]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:11083]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:11121]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:11158]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:11437]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:11474]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:11511]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:11557]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:11594]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:11825]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:11912]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:12300]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:12337]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:12374]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:12733]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:12820]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:13594]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:13631]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:13668]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:13889]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:13926]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:13963]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:14387]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:14424]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:14461]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:14916]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:14953]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:15000]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:15037]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:15403]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:15440]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:15477]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:15764]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:15805]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:16929]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:16966]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:17149]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:17191]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:17954]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:18048]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:19904]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:19941]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:20062]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:20149]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:20600]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:20637]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:20674]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:21680]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:21717]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:21754]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:22215]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:22252]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:22694]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:22788]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:23377]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:23418]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:23760]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:23797]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:23842]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:23880]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:23917]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:24246]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:24283]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:24320]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:24547]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:24633]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:24728]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:24765]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:24811]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:24851]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:25011]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:25098]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:25527]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:25614]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:26178]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:26219]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:26399]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:26440]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:26480]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:26635]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:26679]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:28385]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:28471]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:28887]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:28973]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:29075]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:29120]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:29980]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:30067]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:30287]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:30325]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:30362]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:30503]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:30590]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:30907]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:30993]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:31458]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:31496]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:31533]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:31581]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:31622]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:32445]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:32532]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:32581]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:32675]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:33723]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:33764]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:36534]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:36579]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:36683]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:36720]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:36782]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:36819]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:36856]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:37351]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:37445]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:37776]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:37863]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:37908]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:37946]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:37983]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:38031]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:38072]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:38119]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:38156]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:38377]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:38418]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:38752]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:38790]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:38827]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:39310]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:39404]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:39515]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:39563]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:39907]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:39944]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:40812]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:40853]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:40893]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:40944]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:40988]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:41218]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:41255]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:41305]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:41391]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:42420]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:42465]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:42604]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:42641]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:42678]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:43234]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:43273]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:43310]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:44617]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:44703]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:45062]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:45149]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:45198]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:45292]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:45793]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:45830]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:45867]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:46322]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:46408]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:46508]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:46548]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:46588]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:46691]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:46778]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:46829]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:46874]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:47040]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:47080]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:47127]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:47164]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:47563]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:47649]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:47697]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:47784]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:47829]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:47867]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:47904]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:47952]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:47993]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:48951]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:48991]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:49031]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:49644]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:49686]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:50027]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:50113]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:50161]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:50248]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:50709]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:50749]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:51343]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:51385]: (warning) Redundant code: Found a statement that begins with numeric constant.
+[decomp/Decompiled.c:2500]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:2501]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:2543]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:2544]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:2577]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:2578]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:2632]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:2633]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:2672]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:2737]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:3049]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:3296]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:3561]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:3659]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:4077]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:4424]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:4457]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:4511]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:4558]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:4559]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:4601]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:4602]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:4880]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:4945]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:6044]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:6077]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:6131]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:7695]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:7696]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:7750]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:7751]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:7934]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:7967]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:8021]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:8369]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:8652]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:8653]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:8707]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:8708]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:8799]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:8864]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:9183]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:9487]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:9552]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:9633]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:10071]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:10072]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:10126]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:10127]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:10604]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:11867]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:12742]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:12775]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:12829]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:12864]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:12865]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:12919]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:12920]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:13119]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:15144]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:15209]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:16321]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:16325]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:16363]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:16367]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:16671]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:16763]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:17858]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:17859]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:17913]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:17914]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:17963]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:18000]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:18057]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:18164]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:18165]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:18219]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:18220]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:19068]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:19344]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:19345]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:19399]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:19400]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:19504]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:19608]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:20071]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:20104]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:20158]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:22404]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:22469]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:22703]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:22740]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:22797]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:24588]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:25053]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:25200]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:25265]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:25416]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:25417]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:25471]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:25472]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:25536]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:25569]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:25623]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:26531]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:26596]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:26743]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:26744]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:26798]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:26799]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:27082]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:27147]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:27287]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:27291]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:27329]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:27333]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:27535]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:27536]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:27590]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:27591]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:28426]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:28697]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:28701]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:28738]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:28740]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:28777]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:28781]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:28928]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:29382]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:29447]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:29726]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:29727]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:29781]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:29782]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:30022]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:30161]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:30162]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:30216]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:30217]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:30545]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:30948]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:31720]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:31721]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:31775]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:31776]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:31905]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:32225]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:32226]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:32280]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:32281]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:32487]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:32590]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:32627]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:32684]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:33426]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:33430]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:33468]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:33472]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:33510]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:33514]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:33579]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:33580]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:33634]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:33635]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:34449]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:34450]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:34504]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:34505]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:34727]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:34911]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:35009]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:35370]: (error) Uninitialized variable: auStack868
+[decomp/Decompiled.c:35374]: (error) Uninitialized variable: auStack868
+[decomp/Decompiled.c:35416]: (error) Uninitialized variable: auStack868
+[decomp/Decompiled.c:35420]: (error) Uninitialized variable: auStack868
+[decomp/Decompiled.c:37360]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:37397]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:37454]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:37489]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:37490]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:37544]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:37545]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:37818]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:39319]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:39356]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:39413]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:40401]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:40402]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:40456]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:40457]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:40485]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:40486]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:40528]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:40529]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:40568]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:40633]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:41346]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:41585]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:41586]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:41640]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:41641]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:41830]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:41831]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:41885]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:41886]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:41989]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:42316]: (error) Uninitialized variable: auStack884
+[decomp/Decompiled.c:42318]: (error) Uninitialized variable: auStack884
+[decomp/Decompiled.c:42361]: (error) Uninitialized variable: auStack884
+[decomp/Decompiled.c:42363]: (error) Uninitialized variable: auStack884
+[decomp/Decompiled.c:43507]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:43949]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:43953]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:43990]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:43992]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:44029]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:44033]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:44082]: (error) Uninitialized variable: auStack868
+[decomp/Decompiled.c:44086]: (error) Uninitialized variable: auStack868
+[decomp/Decompiled.c:44128]: (error) Uninitialized variable: auStack868
+[decomp/Decompiled.c:44132]: (error) Uninitialized variable: auStack868
+[decomp/Decompiled.c:44339]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:44436]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:44437]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:44491]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:44492]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:44658]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:45104]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:45207]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:45244]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:45301]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:45406]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:45407]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:45449]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:45450]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:45489]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:45554]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:46015]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:46016]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:46058]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:46059]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:46363]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:46733]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:47604]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:47739]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:48490]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:48491]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:48545]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:48546]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:48808]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:48912]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:49110]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:49111]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:49153]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:49154]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:49227]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:49483]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:49487]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:49525]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:49529]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:49567]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:49571]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:49726]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:49730]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:49768]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:49772]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:50068]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:50203]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:50500]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:50501]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:50555]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:50556]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:50963]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:52046]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:52138]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:52592]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:52701]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:52705]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:52743]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:52747]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:52785]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:52789]: (error) Uninitialized variable: auStack852
+[decomp/Decompiled.c:3051]: (error) Uninitialized variable: puVar2
+[decomp/Decompiled.c:3298]: (error) Uninitialized variable: puVar6
+[decomp/Decompiled.c:4079]: (error) Uninitialized variable: puVar3
+[decomp/Decompiled.c:4459]: (error) Uninitialized variable: puVar6
+[decomp/Decompiled.c:6079]: (error) Uninitialized variable: puVar6
+[decomp/Decompiled.c:7969]: (error) Uninitialized variable: puVar6
+[decomp/Decompiled.c:8371]: (error) Uninitialized variable: puVar3
+[decomp/Decompiled.c:9185]: (error) Uninitialized variable: puVar2
+[decomp/Decompiled.c:9635]: (error) Uninitialized variable: puVar6
+[decomp/Decompiled.c:10606]: (error) Uninitialized variable: puVar3
+[decomp/Decompiled.c:11869]: (error) Uninitialized variable: puVar6
+[decomp/Decompiled.c:12777]: (error) Uninitialized variable: puVar6
+[decomp/Decompiled.c:13121]: (error) Uninitialized variable: puVar2
+[decomp/Decompiled.c:18002]: (error) Uninitialized variable: puVar3
+[decomp/Decompiled.c:19070]: (error) Uninitialized variable: puVar2
+[decomp/Decompiled.c:20106]: (error) Uninitialized variable: puVar6
+[decomp/Decompiled.c:22742]: (error) Uninitialized variable: puVar3
+[decomp/Decompiled.c:24590]: (error) Uninitialized variable: puVar3
+[decomp/Decompiled.c:25055]: (error) Uninitialized variable: puVar6
+[decomp/Decompiled.c:25571]: (error) Uninitialized variable: puVar6
+[decomp/Decompiled.c:28428]: (error) Uninitialized variable: puVar3
+[decomp/Decompiled.c:28930]: (error) Uninitialized variable: puVar3
+[decomp/Decompiled.c:30024]: (error) Uninitialized variable: puVar6
+[decomp/Decompiled.c:30547]: (error) Uninitialized variable: puVar6
+[decomp/Decompiled.c:30950]: (error) Uninitialized variable: puVar3
+[decomp/Decompiled.c:31907]: (error) Uninitialized variable: puVar2
+[decomp/Decompiled.c:32489]: (error) Uninitialized variable: puVar6
+[decomp/Decompiled.c:32629]: (error) Uninitialized variable: puVar3
+[decomp/Decompiled.c:34729]: (error) Uninitialized variable: puVar2
+[decomp/Decompiled.c:37399]: (error) Uninitialized variable: puVar3
+[decomp/Decompiled.c:37820]: (error) Uninitialized variable: puVar6
+[decomp/Decompiled.c:39358]: (error) Uninitialized variable: puVar3
+[decomp/Decompiled.c:41348]: (error) Uninitialized variable: puVar3
+[decomp/Decompiled.c:41991]: (error) Uninitialized variable: puVar2
+[decomp/Decompiled.c:43509]: (error) Uninitialized variable: puVar2
+[decomp/Decompiled.c:44341]: (error) Uninitialized variable: puVar2
+[decomp/Decompiled.c:44660]: (error) Uninitialized variable: puVar3
+[decomp/Decompiled.c:45106]: (error) Uninitialized variable: puVar6
+[decomp/Decompiled.c:45246]: (error) Uninitialized variable: puVar3
+[decomp/Decompiled.c:46365]: (error) Uninitialized variable: puVar3
+[decomp/Decompiled.c:46735]: (error) Uninitialized variable: puVar6
+[decomp/Decompiled.c:47606]: (error) Uninitialized variable: puVar3
+[decomp/Decompiled.c:47741]: (error) Uninitialized variable: puVar6
+[decomp/Decompiled.c:49229]: (error) Uninitialized variable: puVar2
+[decomp/Decompiled.c:50070]: (error) Uninitialized variable: puVar3
+[decomp/Decompiled.c:50205]: (error) Uninitialized variable: puVar6
+[decomp/Decompiled.c:50965]: (error) Uninitialized variable: puVar2
+[decomp/Decompiled.c:52594]: (error) Uninitialized variable: puVar2

@@ -1,0 +1,2007 @@
+Flawfinder version 2.0.8, (C) 2001-2017 David A. Wheeler.
+Number of rules (primarily dangerous function names) in C/C++ ruleset: 223
+decomp/ghidra_decompiled.c:26:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+int printf(char *__format,...)
+decomp/ghidra_decompiled.c:50:  [4] (format) snprintf:
+  If format strings can be influenced by an attacker, they can be exploited,
+  and note that sprintf variations do not always \0-terminate (CWE-134). Use
+  a constant for the format specification.
+int snprintf(char *__s,size_t __maxlen,char *__format,...)
+decomp/ghidra_decompiled.c:195:  [4] (format) wprintf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+int wprintf(wchar_t *__format,...)
+decomp/ghidra_decompiled.c:52857:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+  printf((char *)(double)fParm1,&DAT_00456db9);
+decomp/ghidra_decompiled.c:52926:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+  printf(pcParm1,&DAT_00456dd6);
+decomp/ghidra_decompiled.c:215:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+void srand(uint __seed)
+decomp/ghidra_decompiled.c:365:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+  srand((uint)tVar1);
+decomp/ghidra_decompiled.c:273:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+void * memcpy(void *__dest,void *__src,size_t __n)
+decomp/ghidra_decompiled.c:2491:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_48 [56];
+decomp/ghidra_decompiled.c:2511:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:2534:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:3892:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_68 [64];
+decomp/ghidra_decompiled.c:3914:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_d8 [176];
+decomp/ghidra_decompiled.c:4041:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:4088:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:4127:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:4159:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:4201:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:4549:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_48 [56];
+decomp/ghidra_decompiled.c:4569:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:4592:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:4780:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_48,auStack480 + 1,400,
+decomp/ghidra_decompiled.c:4821:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_48,auStack480 + 1,400,
+decomp/ghidra_decompiled.c:5009:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_1a8,400);
+decomp/ghidra_decompiled.c:5031:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_1a8,400);
+decomp/ghidra_decompiled.c:5196:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_38,local_358,800,
+decomp/ghidra_decompiled.c:5229:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_38,local_358,800,
+decomp/ghidra_decompiled.c:5262:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_38,local_358,800,
+decomp/ghidra_decompiled.c:5871:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:5892:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:6289:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:6309:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:6398:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:6419:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:6529:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_58 [64];
+decomp/ghidra_decompiled.c:6552:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_c8 [176];
+decomp/ghidra_decompiled.c:6975:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:6998:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:7021:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:7200:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:7226:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:7257:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:7280:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:7448:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:7490:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:7521:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:7563:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:7613:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:7648:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:7695:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:7725:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:7750:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:9151:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:9193:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:9228:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:9268:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:9300:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:9329:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:9361:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:9384:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:9407:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:9596:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:9644:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:9683:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:10071:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:10101:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:10126:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:10303:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,local_368,800,
+decomp/ghidra_decompiled.c:10341:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,local_368,800,
+decomp/ghidra_decompiled.c:10462:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/ghidra_decompiled.c:10502:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/ghidra_decompiled.c:10568:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:10615:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:10654:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:10884:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:10907:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:11034:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:11055:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:11089:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:11127:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:11164:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:11443:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:11480:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:11517:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:11989:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:12021:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:12050:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:12401:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:12438:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_38,local_358,800,
+decomp/ghidra_decompiled.c:12832:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:12862:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:12887:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:12970:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:13002:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:13055:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:13097:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:13132:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:13442:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:13493:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:13540:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:13586:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:13623:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:13660:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:13994:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,local_418,400);
+decomp/ghidra_decompiled.c:14021:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,local_418,400);
+decomp/ghidra_decompiled.c:14085:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_1a8,400);
+decomp/ghidra_decompiled.c:14107:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_1a8,400);
+decomp/ghidra_decompiled.c:14568:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_48 [56];
+decomp/ghidra_decompiled.c:14586:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:14604:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:14992:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:15029:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:15078:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:15099:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:15226:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:15251:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:15274:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:15303:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:15323:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:15395:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:15432:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:15469:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:15697:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_338,800);
+decomp/ghidra_decompiled.c:15720:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_338,800);
+decomp/ghidra_decompiled.c:15930:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:15981:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:16028:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:16920:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_1a8,400);
+decomp/ghidra_decompiled.c:16944:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_1a8,400);
+decomp/ghidra_decompiled.c:17494:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:17517:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:17540:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:18237:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:18257:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:18349:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:18369:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:18427:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:18450:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:18870:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:18912:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:18947:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:19178:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:19208:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:19233:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:19473:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:19506:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:19575:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,local_808,800);
+decomp/ghidra_decompiled.c:19606:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,local_808,800);
+decomp/ghidra_decompiled.c:19636:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_338,800);
+decomp/ghidra_decompiled.c:19658:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_338,800);
+decomp/ghidra_decompiled.c:20029:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,local_7f8,800);
+decomp/ghidra_decompiled.c:20056:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,local_7f8,800);
+decomp/ghidra_decompiled.c:20088:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_1a8,400);
+decomp/ghidra_decompiled.c:20125:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_1a8,400);
+decomp/ghidra_decompiled.c:20226:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_338,800);
+decomp/ghidra_decompiled.c:20248:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_338,800);
+decomp/ghidra_decompiled.c:20349:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:20374:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:20397:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:20546:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_338,800);
+decomp/ghidra_decompiled.c:20566:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_338,800);
+decomp/ghidra_decompiled.c:20705:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/ghidra_decompiled.c:20723:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/ghidra_decompiled.c:20754:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_38,local_358,800,
+decomp/ghidra_decompiled.c:20787:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_38,local_358,800,
+decomp/ghidra_decompiled.c:20911:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_338,800);
+decomp/ghidra_decompiled.c:20934:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_338,800);
+decomp/ghidra_decompiled.c:21185:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_48 [56];
+decomp/ghidra_decompiled.c:21203:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:21249:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_38,local_358,800,
+decomp/ghidra_decompiled.c:21282:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_38,local_358,800,
+decomp/ghidra_decompiled.c:21315:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_38,local_358,800,
+decomp/ghidra_decompiled.c:21411:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:21432:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:21520:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:21557:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:21594:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:21630:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_1a8,400);
+decomp/ghidra_decompiled.c:21654:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_1a8,400);
+decomp/ghidra_decompiled.c:21909:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:21929:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:22055:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:22092:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:22939:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:22960:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:23219:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_48,auStack880 + 1,800,
+decomp/ghidra_decompiled.c:23260:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_48,auStack880 + 1,800,
+decomp/ghidra_decompiled.c:23295:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_1a8,400);
+decomp/ghidra_decompiled.c:23341:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_1a8,400);
+decomp/ghidra_decompiled.c:23427:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_338,800);
+decomp/ghidra_decompiled.c:23449:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_338,800);
+decomp/ghidra_decompiled.c:23682:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:23720:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:23757:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:23984:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/ghidra_decompiled.c:24002:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/ghidra_decompiled.c:24205:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_38,local_358,800,
+decomp/ghidra_decompiled.c:24238:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_38,local_358,800,
+decomp/ghidra_decompiled.c:24386:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:24433:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:24472:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:24568:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:24605:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:24725:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:24746:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:24850:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:24898:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:24937:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:24973:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_338,800);
+decomp/ghidra_decompiled.c:24997:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_338,800);
+decomp/ghidra_decompiled.c:25241:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:25278:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:25315:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:25829:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:25850:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:25872:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_338,800);
+decomp/ghidra_decompiled.c:25916:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_338,800);
+decomp/ghidra_decompiled.c:25977:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,local_358,800,
+decomp/ghidra_decompiled.c:26012:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_38,local_358,800,
+decomp/ghidra_decompiled.c:26045:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_38,local_358,800,
+decomp/ghidra_decompiled.c:26264:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_1a8,400);
+decomp/ghidra_decompiled.c:26286:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_1a8,400);
+decomp/ghidra_decompiled.c:26745:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:26775:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:26800:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:26865:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_1a8,400);
+decomp/ghidra_decompiled.c:26889:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_1a8,400);
+decomp/ghidra_decompiled.c:27408:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_338,800);
+decomp/ghidra_decompiled.c:27431:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_338,800);
+decomp/ghidra_decompiled.c:27453:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_348,800);
+decomp/ghidra_decompiled.c:27476:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_348,800);
+decomp/ghidra_decompiled.c:27537:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:27567:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:27592:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:27654:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:27675:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:27925:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:27968:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:28053:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:28078:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:28101:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:28137:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_7f8,800);
+decomp/ghidra_decompiled.c:28164:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_7f8,800);
+decomp/ghidra_decompiled.c:28218:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:28260:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:28392:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:28439:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:28478:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:29255:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_408,400);
+decomp/ghidra_decompiled.c:29283:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_408,400);
+decomp/ghidra_decompiled.c:29311:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:29346:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:29713:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_1a8,400);
+decomp/ghidra_decompiled.c:29735:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_1a8,400);
+decomp/ghidra_decompiled.c:30019:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:30067:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:30106:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:30664:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_338,800);
+decomp/ghidra_decompiled.c:30687:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_338,800);
+decomp/ghidra_decompiled.c:31187:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_338,800);
+decomp/ghidra_decompiled.c:31211:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_338,800);
+decomp/ghidra_decompiled.c:31391:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_338,800);
+decomp/ghidra_decompiled.c:31412:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_338,800);
+decomp/ghidra_decompiled.c:31498:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:31536:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:31573:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:31623:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_40,auStack880 + 1,800,
+decomp/ghidra_decompiled.c:31664:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_40,auStack880 + 1,800,
+decomp/ghidra_decompiled.c:31754:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:31784:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:31809:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:31907:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:31949:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:31984:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:32071:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/ghidra_decompiled.c:32111:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/ghidra_decompiled.c:32739:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_48 [56];
+decomp/ghidra_decompiled.c:32759:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:32777:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:32930:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_48,local_368,800,
+decomp/ghidra_decompiled.c:32967:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_48,local_368,800,
+decomp/ghidra_decompiled.c:33613:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:33643:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:33668:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:33848:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,local_418,400);
+decomp/ghidra_decompiled.c:33879:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,local_418,400);
+decomp/ghidra_decompiled.c:34151:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/ghidra_decompiled.c:34169:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/ghidra_decompiled.c:34574:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_408,400);
+decomp/ghidra_decompiled.c:34601:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_408,400);
+decomp/ghidra_decompiled.c:34853:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:34876:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:35635:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:35658:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:35681:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:35805:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_68 [56];
+decomp/ghidra_decompiled.c:35831:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_d8 [168];
+decomp/ghidra_decompiled.c:36003:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_338,800);
+decomp/ghidra_decompiled.c:36040:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_338,800);
+decomp/ghidra_decompiled.c:36122:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:36147:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:36170:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:36197:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/ghidra_decompiled.c:36215:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/ghidra_decompiled.c:36576:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_48,auStack496 + 1,400,
+decomp/ghidra_decompiled.c:36621:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_48,auStack496 + 1,400,
+decomp/ghidra_decompiled.c:36971:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_58 [56];
+decomp/ghidra_decompiled.c:36993:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_c8 [168];
+decomp/ghidra_decompiled.c:37034:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_1a8,400);
+decomp/ghidra_decompiled.c:37056:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_1a8,400);
+decomp/ghidra_decompiled.c:37523:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:37553:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:37578:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:37648:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_338,800);
+decomp/ghidra_decompiled.c:37673:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_338,800);
+decomp/ghidra_decompiled.c:37948:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:37986:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:38023:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:38073:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_40,auStack480 + 1,400,
+decomp/ghidra_decompiled.c:38114:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_40,auStack480 + 1,400,
+decomp/ghidra_decompiled.c:38159:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:38196:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:38644:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_48 [56];
+decomp/ghidra_decompiled.c:38664:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:38682:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:38765:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:38788:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:38811:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:39112:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:39135:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:39182:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_50,local_378,800,
+decomp/ghidra_decompiled.c:39223:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_50,local_378,800,
+decomp/ghidra_decompiled.c:39556:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/ghidra_decompiled.c:39576:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/ghidra_decompiled.c:39756:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_338,800);
+decomp/ghidra_decompiled.c:39802:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_338,800);
+decomp/ghidra_decompiled.c:40009:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:40046:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:40138:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:40164:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:40257:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,local_358,800,
+decomp/ghidra_decompiled.c:40292:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_38,local_358,800,
+decomp/ghidra_decompiled.c:40325:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_38,local_358,800,
+decomp/ghidra_decompiled.c:40371:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_48,local_368,800,
+decomp/ghidra_decompiled.c:40408:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_48,local_368,800,
+decomp/ghidra_decompiled.c:40497:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:40527:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:40552:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:40572:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_48 [56];
+decomp/ghidra_decompiled.c:40592:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:40615:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:41185:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_338,800);
+decomp/ghidra_decompiled.c:41210:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_338,800);
+decomp/ghidra_decompiled.c:41233:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:41256:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:41279:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:41406:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:41453:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:41492:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:41681:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:41711:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:41736:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:41756:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_48 [56];
+decomp/ghidra_decompiled.c:41774:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:41792:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:42287:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_48 [56];
+decomp/ghidra_decompiled.c:42305:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:42524:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_48,auStack896 + 1,800,
+decomp/ghidra_decompiled.c:42569:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_48,auStack896 + 1,800,
+decomp/ghidra_decompiled.c:42600:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:42620:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:43065:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [112];
+decomp/ghidra_decompiled.c:43066:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_48 [56];
+decomp/ghidra_decompiled.c:43091:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:43335:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:43367:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:43396:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:43737:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:43769:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:43798:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:44177:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:44221:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:44265:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:44307:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:44342:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:44394:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:44424:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:44449:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/ghidra_decompiled.c:44746:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_48 [56];
+decomp/ghidra_decompiled.c:44768:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:44793:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:44823:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_48 [56];
+decomp/ghidra_decompiled.c:44841:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:44859:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:45025:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:45073:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:45112:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:45355:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_48 [56];
+decomp/ghidra_decompiled.c:45375:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:45398:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:45617:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:45666:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:45711:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:45757:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:45794:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:45831:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:45964:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_48 [56];
+decomp/ghidra_decompiled.c:45984:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:46007:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:46036:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_48 [56];
+decomp/ghidra_decompiled.c:46054:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:46183:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_1a8,400);
+decomp/ghidra_decompiled.c:46205:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_1a8,400);
+decomp/ghidra_decompiled.c:46285:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:46332:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:46371:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:46406:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:46429:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_3f8,400);
+decomp/ghidra_decompiled.c:46933:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_7e8,800);
+decomp/ghidra_decompiled.c:46961:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_7e8,800);
+decomp/ghidra_decompiled.c:47091:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:47128:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:47159:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:47179:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:47223:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_48 [56];
+decomp/ghidra_decompiled.c:47245:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:47270:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:47309:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:47329:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:47660:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:47708:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:47747:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:48059:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:48108:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:48153:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack464 + 1,400,
+decomp/ghidra_decompiled.c:48220:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:48264:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:48304:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:48346:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_38,local_358,800,
+decomp/ghidra_decompiled.c:48379:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_38,local_358,800,
+decomp/ghidra_decompiled.c:48412:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_38,local_358,800,
+decomp/ghidra_decompiled.c:49059:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_48 [56];
+decomp/ghidra_decompiled.c:49079:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:49102:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+  char local_b8 [168];
+decomp/ghidra_decompiled.c:49153:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:49195:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:49230:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:49783:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_38,local_358,800,
+decomp/ghidra_decompiled.c:49816:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_38,local_358,800,
+decomp/ghidra_decompiled.c:49844:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/ghidra_decompiled.c:49862:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/ghidra_decompiled.c:50124:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:50172:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:50211:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:50343:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_1a8,400);
+decomp/ghidra_decompiled.c:50367:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_1a8,400);
+decomp/ghidra_decompiled.c:51172:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:51216:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:51256:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_358,800,
+decomp/ghidra_decompiled.c:51306:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:51348:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,auStack864 + 1,800,
+decomp/ghidra_decompiled.c:51444:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:51486:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:51536:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:51556:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:51925:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:51945:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_198,400);
+decomp/ghidra_decompiled.c:52791:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+decomp/ghidra_decompiled.c:52812:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(puParm1,local_328,800);
+
+ANALYSIS SUMMARY:
+
+Hits = 469
+Lines analyzed = 53298 in approximately 1.14 seconds (46711 lines/second)
+Physical Source Lines of Code (SLOC) = 43740
+Hits@level = [0]  93 [1]   0 [2] 462 [3]   2 [4]   5 [5]   0
+Hits@level+ = [0+] 562 [1+] 469 [2+] 469 [3+]   7 [4+]   5 [5+]   0
+Hits/KSLOC@level+ = [0+] 12.8487 [1+] 10.7225 [2+] 10.7225 [3+] 0.160037 [4+] 0.114312 [5+]   0
+Minimum risk level = 1
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!
+See 'Secure Programming HOWTO'
+(https://dwheeler.com/secure-programs) for more information.

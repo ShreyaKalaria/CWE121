@@ -1,0 +1,72 @@
+/*
+ *      Copyright (c) 2007, an unpublished work by GrammaTech, Inc.
+ *                      ALL RIGHTS RESERVED
+ *
+ *      This software is furnished under a license and may be used and
+ *      copied only in accordance with the terms of such license and the
+ *      inclusion of the above copyright notice.  This software or any
+ *      other copies thereof may not be provided or otherwise made
+ *      available to any other person.  Title to and ownership of the
+ *      software is retained by GrammaTech, Inc.
+ */
+
+/* Include the normal inet.h */
+
+#include_next <arpa/inet.h>
+
+#ifndef _INET_H_CSURF
+#define _INET_H_CSURF
+
+/* Make the overrides that are necessary for modeling ctype.h. */
+#ifdef __cplusplus
+#define __CSURF_EXTERN_C extern "C"
+#else /* __cplusplus */
+#define __CSURF_EXTERN_C extern
+#endif /* __cplusplus */
+
+#ifdef __CSURF_THROW
+# error -- __CSURF_THROW is reserved for CodeSurfer internal use
+#endif /* __CSURF_THROW */
+
+/* g++ declares functions below with __THROW. We would get an
+   "omission of exception specification is incompatible with previous 
+   function" error from EDG if we don't do the same thing. */
+#ifdef __THROW
+# define __CSURF_THROW __THROW
+#else /* __THROW */
+# define __CSURF_THROW
+#endif /* __THROW */
+
+#if defined ( _WIN32 ) || defined( __CYGWIN__ )
+#define __CSURF_INCLUDE_CALLING_CONVENTION __cdecl
+#else
+#define __CSURF_INCLUDE_CALLING_CONVENTION
+#endif
+
+#ifdef htonl
+#hard_undef htonl
+__CSURF_EXTERN_C unsigned int __CSURF_INCLUDE_CALLING_CONVENTION htonl(unsigned int) __CSURF_THROW;
+#endif
+
+#ifdef ntohl
+#hard_undef ntohl
+__CSURF_EXTERN_C unsigned int __CSURF_INCLUDE_CALLING_CONVENTION ntohl(unsigned int) __CSURF_THROW;
+#endif
+
+
+#ifdef htons
+#hard_undef htons
+__CSURF_EXTERN_C unsigned short __CSURF_INCLUDE_CALLING_CONVENTION htons(unsigned short) __CSURF_THROW;
+#endif
+
+#ifdef ntohs
+#hard_undef ntohs
+__CSURF_EXTERN_C unsigned short __CSURF_INCLUDE_CALLING_CONVENTION ntohs(unsigned short) __CSURF_THROW;
+#endif
+
+#undef __CSURF_INCLUDE_CALLING_CONVENTION
+#undef __CSURF_THROW
+#undef __CSURF_EXTERN_C
+
+#endif /* _INET_H_CSURF */
+

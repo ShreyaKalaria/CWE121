@@ -1,0 +1,768 @@
+Flawfinder version 2.0.8, (C) 2001-2017 David A. Wheeler.
+Number of rules (primarily dangerous function names) in C/C++ ruleset: 223
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_01.c:93:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_02.c:133:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_03.c:133:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_04.c:140:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_05.c:140:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_06.c:137:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_07.c:139:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_08.c:147:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_09.c:133:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_10.c:133:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_11.c:133:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_12.c:110:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_13.c:133:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_14.c:133:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_15.c:146:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_16.c:101:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_17.c:101:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_18.c:97:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_31.c:100:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_32.c:110:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_33.cpp:107:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_34.c:108:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_41.c:103:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_44.c:106:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_45.c:109:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_01.c:105:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_02.c:151:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_03.c:151:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_04.c:158:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_05.c:158:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_06.c:155:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_07.c:157:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_08.c:165:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_09.c:151:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_10.c:151:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_11.c:151:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_12.c:122:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_13.c:151:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_14.c:151:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_15.c:164:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_16.c:113:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_17.c:113:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_18.c:109:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_31.c:112:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_32.c:122:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_33.cpp:119:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_34.c:120:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_41.c:115:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_44.c:118:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_45.c:121:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_01.c:93:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_02.c:133:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_03.c:133:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_04.c:140:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_05.c:140:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_06.c:137:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_07.c:139:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_08.c:147:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_09.c:133:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_10.c:133:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_11.c:133:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_12.c:110:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_13.c:133:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_14.c:133:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_15.c:146:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_16.c:101:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_17.c:101:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_18.c:97:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_31.c:100:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_32.c:110:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_33.cpp:107:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_34.c:108:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_41.c:103:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_44.c:106:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_45.c:109:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_01.c:93:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_02.c:133:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_03.c:133:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_04.c:140:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_05.c:140:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_06.c:137:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_07.c:139:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_08.c:147:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_09.c:133:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_10.c:133:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_11.c:133:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_12.c:110:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_13.c:133:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_14.c:133:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_15.c:146:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_16.c:101:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_17.c:101:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_18.c:97:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_31.c:100:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_32.c:110:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_33.cpp:107:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_34.c:108:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_41.c:103:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_44.c:106:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_45.c:109:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+    srand( (unsigned)time(NULL) );
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_01.c:41:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_01.c:70:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_02.c:44:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_02.c:81:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_02.c:109:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_03.c:44:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_03.c:81:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_03.c:109:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_04.c:51:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_04.c:88:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_04.c:116:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_05.c:51:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_05.c:88:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_05.c:116:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_06.c:48:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_06.c:85:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_06.c:113:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_07.c:50:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_07.c:87:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_07.c:115:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_08.c:58:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_08.c:95:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_08.c:123:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_09.c:44:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_09.c:81:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_09.c:109:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_10.c:44:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_10.c:81:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_10.c:109:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_11.c:44:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_11.c:81:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_11.c:109:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_12.c:49:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_12.c:87:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_13.c:44:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_13.c:81:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_13.c:109:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_14.c:44:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_14.c:81:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_14.c:109:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_15.c:50:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_15.c:88:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_15.c:122:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_16.c:45:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_16.c:78:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_17.c:45:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_17.c:78:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_18.c:43:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_18.c:74:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_31.c:44:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+            memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_31.c:77:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+            memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_32.c:49:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+            memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_32.c:87:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+            memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_33.cpp:47:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+            memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_33.cpp:80:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+            memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_34.c:51:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+            memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_34.c:85:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+            memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_41.c:35:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_41.c:69:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_44.c:35:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_44.c:73:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_45.c:39:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_45.c:76:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(data, source, 100*sizeof(twoIntsStruct));
+
+ANALYSIS SUMMARY:
+
+Hits = 163
+Lines analyzed = 13878 in approximately 0.56 seconds (24652 lines/second)
+Physical Source Lines of Code (SLOC) = 12022
+Hits@level = [0]   0 [1]   0 [2]  63 [3] 100 [4]   0 [5]   0
+Hits@level+ = [0+] 163 [1+] 163 [2+] 163 [3+] 100 [4+]   0 [5+]   0
+Hits/KSLOC@level+ = [0+] 13.5585 [1+] 13.5585 [2+] 13.5585 [3+] 8.31808 [4+]   0 [5+]   0
+Minimum risk level = 1
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!
+See 'Secure Programming HOWTO'
+(https://dwheeler.com/secure-programs) for more information.

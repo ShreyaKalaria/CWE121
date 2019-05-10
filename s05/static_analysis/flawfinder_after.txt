@@ -1,0 +1,370 @@
+Flawfinder version 2.0.8, (C) 2001-2017 David A. Wheeler.
+Number of rules (primarily dangerous function names) in C/C++ ruleset: 223
+decomp/Decompiled.c:26:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+int printf(char *__format,...)
+decomp/Decompiled.c:171:  [4] (format) wprintf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+int wprintf(wchar_t *__format,...)
+decomp/Decompiled.c:12469:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+  printf((char *)(double)fParm1,&DAT_0041732d);
+decomp/Decompiled.c:12538:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+  printf(pcParm1,&DAT_0041734a);
+decomp/Decompiled.c:191:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+void srand(uint __seed)
+decomp/Decompiled.c:341:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+  srand((uint)tVar1);
+decomp/Decompiled.c:249:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+void * memcpy(void *__dest,void *__src,size_t __n)
+decomp/Decompiled.c:1136:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:1164:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:1189:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:1248:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/Decompiled.c:1266:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/Decompiled.c:2043:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_7e8,800);
+decomp/Decompiled.c:2064:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_7e8,800);
+decomp/Decompiled.c:2085:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_7e8,800);
+decomp/Decompiled.c:2419:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_338,800);
+decomp/Decompiled.c:2441:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_338,800);
+decomp/Decompiled.c:2928:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:2954:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:2977:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:3004:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/Decompiled.c:3034:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/Decompiled.c:3121:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/Decompiled.c:3139:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/Decompiled.c:3274:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,local_7f8,800);
+decomp/Decompiled.c:3299:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,local_7f8,800);
+decomp/Decompiled.c:3404:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_338,800);
+decomp/Decompiled.c:3424:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_338,800);
+decomp/Decompiled.c:3776:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_7e8,800);
+decomp/Decompiled.c:3797:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_7e8,800);
+decomp/Decompiled.c:3862:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_7e8,800);
+decomp/Decompiled.c:3883:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_7e8,800);
+decomp/Decompiled.c:3904:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_7e8,800);
+decomp/Decompiled.c:4076:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_7e8,800);
+decomp/Decompiled.c:4097:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_7e8,800);
+decomp/Decompiled.c:4307:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:4329:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:4765:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_7f8,800);
+decomp/Decompiled.c:4791:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_7f8,800);
+decomp/Decompiled.c:4817:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/Decompiled.c:4850:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/Decompiled.c:4915:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:4943:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:4968:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:4998:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_7e8,800);
+decomp/Decompiled.c:5019:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_7e8,800);
+decomp/Decompiled.c:5040:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_7e8,800);
+decomp/Decompiled.c:5769:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/Decompiled.c:5787:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/Decompiled.c:6899:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_338,800);
+decomp/Decompiled.c:6934:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(__dest,local_338,800);
+decomp/Decompiled.c:6992:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_338,800);
+decomp/Decompiled.c:7013:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_338,800);
+decomp/Decompiled.c:7981:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/Decompiled.c:7999:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/Decompiled.c:8390:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/Decompiled.c:8408:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/Decompiled.c:8497:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_7e8,800);
+decomp/Decompiled.c:8518:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_18,local_7e8,800);
+decomp/Decompiled.c:8586:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:8612:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:8635:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:9018:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:9041:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:9062:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:9343:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_348,800);
+decomp/Decompiled.c:9366:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_20,local_348,800);
+decomp/Decompiled.c:9386:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/Decompiled.c:9406:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(pvParm1,local_338,800);
+decomp/Decompiled.c:9655:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:9681:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:9704:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:9774:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,local_808,800);
+decomp/Decompiled.c:9803:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_30,local_808,800);
+decomp/Decompiled.c:10167:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:10193:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:10216:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:10419:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:10442:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:10463:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:10497:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,local_7f8,800);
+decomp/Decompiled.c:10522:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_28,local_7f8,800);
+decomp/Decompiled.c:10659:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:10685:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:10708:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:11972:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:11998:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+decomp/Decompiled.c:12021:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+  memcpy(local_10,local_7e8,800);
+
+ANALYSIS SUMMARY:
+
+Hits = 88
+Lines analyzed = 12910 in approximately 0.73 seconds (17749 lines/second)
+Physical Source Lines of Code (SLOC) = 10288
+Hits@level = [0]  12 [1]   0 [2]  82 [3]   2 [4]   4 [5]   0
+Hits@level+ = [0+] 100 [1+]  88 [2+]  88 [3+]   6 [4+]   4 [5+]   0
+Hits/KSLOC@level+ = [0+] 9.72006 [1+] 8.55365 [2+] 8.55365 [3+] 0.583204 [4+] 0.388802 [5+]   0
+Minimum risk level = 1
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!
+See 'Secure Programming HOWTO'
+(https://dwheeler.com/secure-programs) for more information.

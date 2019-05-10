@@ -1,0 +1,31 @@
+[CWE121_s01_c_only.c:68146]: (warning) %s in format string (no. 1) requires 'char *' but the argument type is 'signed long'.
+[CWE121_s01_c_only.c:68156]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned long'.
+[CWE121_s01_c_only.c:68165]: (warning) %hd in format string (no. 1) requires 'short' but the argument type is 'unsigned long'.
+[CWE121_s01_c_only.c:68183]: (warning) %ld in format string (no. 1) requires 'long' but the argument type is 'unsigned long'.
+[CWE121_s01_c_only.c:68192]: (warning) %ld in format string (no. 1) requires 'long' but the argument type is 'unsigned long'.
+[CWE121_s01_c_only.c:68201]: (warning) %zu in format string (no. 1) requires 'size_t' but the argument type is 'unsigned long'.
+[CWE121_s01_c_only.c:68210]: (warning) %x in format string (no. 1) requires 'unsigned int' but the argument type is 'unsigned long'.
+[CWE121_s01_c_only.c:68233]: (warning) %u in format string (no. 1) requires 'unsigned int' but the argument type is 'unsigned long'.
+[CWE121_s01_c_only.c:68242]: (warning) %x in format string (no. 1) requires 'unsigned int' but the argument type is 'unsigned long'.
+[CWE121_s01_c_only.c:68260]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned long'.
+[CWE121_s01_c_only.c:68260]: (warning) %d in format string (no. 2) requires 'int' but the argument type is 'unsigned long'.
+[CWE121_s01_c_only.c:68273]: (warning) %x in format string (no. 1) requires 'unsigned int' but the argument type is 'unsigned long'.
+[CWE121_s01_c_only.c:68361]: (error) Shifting signed 32-bit value by 31 bits is undefined behaviour
+[CWE121_s01_c_only.c:8903]: (error) Buffer is accessed out of bounds: local_38
+[CWE121_s01_c_only.c:11637]: (error) Buffer is accessed out of bounds: local_28
+[CWE121_s01_c_only.c:15340]: (error) Buffer is accessed out of bounds: local_28
+[CWE121_s01_c_only.c:18059]: (error) Buffer is accessed out of bounds: local_28
+[CWE121_s01_c_only.c:25372]: (error) Buffer is accessed out of bounds: local_28
+[CWE121_s01_c_only.c:27137]: (error) Buffer is accessed out of bounds: local_28
+[CWE121_s01_c_only.c:31944]: (error) Buffer is accessed out of bounds: local_28
+[CWE121_s01_c_only.c:34716]: (error) Buffer is accessed out of bounds: local_28
+[CWE121_s01_c_only.c:37921]: (error) Buffer is accessed out of bounds: local_28
+[CWE121_s01_c_only.c:37997]: (error) Buffer is accessed out of bounds: local_28
+[CWE121_s01_c_only.c:39198]: (error) Buffer is accessed out of bounds: local_28
+[CWE121_s01_c_only.c:39795]: (error) Buffer is accessed out of bounds: local_28
+[CWE121_s01_c_only.c:41344]: (error) Buffer is accessed out of bounds: local_28
+[CWE121_s01_c_only.c:51928]: (error) Buffer is accessed out of bounds: local_28
+[CWE121_s01_c_only.c:52278]: (error) Buffer is accessed out of bounds: local_28
+[CWE121_s01_c_only.c:61117]: (error) Buffer is accessed out of bounds: local_28
+[CWE121_s01_c_only.c:66199]: (error) Buffer is accessed out of bounds: local_28
+[CWE121_s01_c_only.c:16239]: (error) Uninitialized variable: local_20

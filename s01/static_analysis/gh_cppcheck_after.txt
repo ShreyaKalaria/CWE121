@@ -1,0 +1,13 @@
+[decomp/ghidra_decompiled.c:65991]: (warning) %s in format string (no. 1) requires 'char *' but the argument type is 'signed long'.
+[decomp/ghidra_decompiled.c:66188]: (error) Shifting signed 32-bit value by 31 bits is undefined behaviour
+[decomp/ghidra_decompiled.c:15265]: (error) Uninitialized variable: local_20
+[decomp/ghidra_decompiled.c:24292]: (error) Uninitialized variable: extraout_RDX
+[decomp/ghidra_decompiled.c:30677]: (error) Uninitialized variable: extraout_RDX
+[decomp/ghidra_decompiled.c:36153]: (error) Uninitialized variable: extraout_RDX
+[decomp/ghidra_decompiled.c:36244]: (error) Uninitialized variable: extraout_RDX
+[decomp/ghidra_decompiled.c:37565]: (error) Uninitialized variable: extraout_RDX
+[decomp/ghidra_decompiled.c:39607]: (error) Uninitialized variable: extraout_RDX
+[decomp/ghidra_decompiled.c:39698]: (error) Uninitialized variable: extraout_RDX
+[decomp/ghidra_decompiled.c:50277]: (error) Uninitialized variable: extraout_RDX
+[decomp/ghidra_decompiled.c:58960]: (error) Uninitialized variable: extraout_RDX
+[decomp/ghidra_decompiled.c:63668]: (error) Uninitialized variable: extraout_RDX

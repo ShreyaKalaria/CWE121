@@ -1,0 +1,184 @@
+[decomp/Decompiled.c:914] -> [decomp/Decompiled.c:913]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:915] -> [decomp/Decompiled.c:913]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:956] -> [decomp/Decompiled.c:955]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:957] -> [decomp/Decompiled.c:955]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:991] -> [decomp/Decompiled.c:990]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:992] -> [decomp/Decompiled.c:990]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:1931] -> [decomp/Decompiled.c:1930]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:1932] -> [decomp/Decompiled.c:1930]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:1968] -> [decomp/Decompiled.c:1967]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:1969] -> [decomp/Decompiled.c:1967]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:2221] -> [decomp/Decompiled.c:2220]: (warning) Either the condition 'local_30<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:2222] -> [decomp/Decompiled.c:2220]: (warning) Either the condition 'local_30<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:2259] -> [decomp/Decompiled.c:2258]: (warning) Either the condition 'local_30<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:2260] -> [decomp/Decompiled.c:2258]: (warning) Either the condition 'local_30<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:2474] -> [decomp/Decompiled.c:2473]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:2475] -> [decomp/Decompiled.c:2473]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:2518] -> [decomp/Decompiled.c:2517]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:2519] -> [decomp/Decompiled.c:2517]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:2558] -> [decomp/Decompiled.c:2557]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:2559] -> [decomp/Decompiled.c:2557]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:2599] -> [decomp/Decompiled.c:2598]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:2600] -> [decomp/Decompiled.c:2598]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:2632] -> [decomp/Decompiled.c:2631]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:2633] -> [decomp/Decompiled.c:2631]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:2665] -> [decomp/Decompiled.c:2664]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:2666] -> [decomp/Decompiled.c:2664]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:2812] -> [decomp/Decompiled.c:2811]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:2813] -> [decomp/Decompiled.c:2811]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:2854] -> [decomp/Decompiled.c:2853]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:2855] -> [decomp/Decompiled.c:2853]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:2889] -> [decomp/Decompiled.c:2888]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:2890] -> [decomp/Decompiled.c:2888]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:3164] -> [decomp/Decompiled.c:3163]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:3165] -> [decomp/Decompiled.c:3163]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:3197] -> [decomp/Decompiled.c:3196]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:3198] -> [decomp/Decompiled.c:3196]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:3508] -> [decomp/Decompiled.c:3507]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:3509] -> [decomp/Decompiled.c:3507]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:3552] -> [decomp/Decompiled.c:3551]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:3553] -> [decomp/Decompiled.c:3551]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:3592] -> [decomp/Decompiled.c:3591]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:3593] -> [decomp/Decompiled.c:3591]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:3633] -> [decomp/Decompiled.c:3632]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:3634] -> [decomp/Decompiled.c:3632]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:3666] -> [decomp/Decompiled.c:3665]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:3667] -> [decomp/Decompiled.c:3665]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:3699] -> [decomp/Decompiled.c:3698]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:3700] -> [decomp/Decompiled.c:3698]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:3938] -> [decomp/Decompiled.c:3937]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:3939] -> [decomp/Decompiled.c:3937]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:3973] -> [decomp/Decompiled.c:3972]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:3974] -> [decomp/Decompiled.c:3972]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:4006] -> [decomp/Decompiled.c:4005]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:4007] -> [decomp/Decompiled.c:4005]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:4410] -> [decomp/Decompiled.c:4409]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:4411] -> [decomp/Decompiled.c:4409]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:4452] -> [decomp/Decompiled.c:4451]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:4453] -> [decomp/Decompiled.c:4451]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:4487] -> [decomp/Decompiled.c:4486]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:4488] -> [decomp/Decompiled.c:4486]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:4630] -> [decomp/Decompiled.c:4629]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_378[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:4631] -> [decomp/Decompiled.c:4629]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_378[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:4671] -> [decomp/Decompiled.c:4670]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_378[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:4672] -> [decomp/Decompiled.c:4670]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_378[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:5475] -> [decomp/Decompiled.c:5474]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:5476] -> [decomp/Decompiled.c:5474]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:5510] -> [decomp/Decompiled.c:5509]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:5511] -> [decomp/Decompiled.c:5509]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:5543] -> [decomp/Decompiled.c:5542]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:5544] -> [decomp/Decompiled.c:5542]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:5587] -> [decomp/Decompiled.c:5586]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:5588] -> [decomp/Decompiled.c:5586]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:5624] -> [decomp/Decompiled.c:5623]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:5625] -> [decomp/Decompiled.c:5623]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:7332] -> [decomp/Decompiled.c:7331]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:7333] -> [decomp/Decompiled.c:7331]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:7374] -> [decomp/Decompiled.c:7373]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:7375] -> [decomp/Decompiled.c:7373]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:7409] -> [decomp/Decompiled.c:7408]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:7410] -> [decomp/Decompiled.c:7408]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:7880] -> [decomp/Decompiled.c:7879]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:7881] -> [decomp/Decompiled.c:7879]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:7913] -> [decomp/Decompiled.c:7912]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:7914] -> [decomp/Decompiled.c:7912]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:7946] -> [decomp/Decompiled.c:7945]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:7947] -> [decomp/Decompiled.c:7945]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:8076] -> [decomp/Decompiled.c:8075]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:8077] -> [decomp/Decompiled.c:8075]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:8109] -> [decomp/Decompiled.c:8108]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:8110] -> [decomp/Decompiled.c:8108]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:9098] -> [decomp/Decompiled.c:9097]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:9099] -> [decomp/Decompiled.c:9097]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:9135] -> [decomp/Decompiled.c:9134]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:9136] -> [decomp/Decompiled.c:9134]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_368[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:9434] -> [decomp/Decompiled.c:9433]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:9435] -> [decomp/Decompiled.c:9433]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:9476] -> [decomp/Decompiled.c:9475]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:9477] -> [decomp/Decompiled.c:9475]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:9511] -> [decomp/Decompiled.c:9510]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:9512] -> [decomp/Decompiled.c:9510]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:11539] -> [decomp/Decompiled.c:11538]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:11540] -> [decomp/Decompiled.c:11538]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:11572] -> [decomp/Decompiled.c:11571]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:11573] -> [decomp/Decompiled.c:11571]: (warning) Either the condition 'local_20<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:11856] -> [decomp/Decompiled.c:11855]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:11857] -> [decomp/Decompiled.c:11855]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:11898] -> [decomp/Decompiled.c:11897]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:11899] -> [decomp/Decompiled.c:11897]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:11933] -> [decomp/Decompiled.c:11932]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 198, which is out of bounds.
+[decomp/Decompiled.c:11934] -> [decomp/Decompiled.c:11932]: (warning) Either the condition 'local_28<100' is redundant or the array 'local_358[2]' is accessed at index 199, which is out of bounds.
+[decomp/Decompiled.c:12444]: (warning) %s in format string (no. 1) requires 'char *' but the argument type is 'signed long'.
+[decomp/Decompiled.c:12641]: (error) Shifting signed 32-bit value by 31 bits is undefined behaviour
+[decomp/Decompiled.c:951]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:1477]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:1536]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:1820]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:1821]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:1869]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:1870]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:2123]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:2182]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:2849]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:2928]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:2929]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:2977]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:2978]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:4447]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:4532]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:4591]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:5126]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:5127]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:5175]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:5176]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:5810]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:5811]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:5859]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:5860]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:6126]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:6185]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:6266]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:6267]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:6315]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:6316]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:7060]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:7119]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:7369]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:8314]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:8315]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:8363]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:8364]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:8586]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:8587]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:8635]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:8636]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:9471]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:9655]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:9656]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:9704]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:9705]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:10167]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:10168]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:10216]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:10217]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:10659]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:10660]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:10708]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:10709]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:10925]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:10984]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:11456]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:11457]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:11505]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:11506]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:11893]: (error) Uninitialized variable: local_20
+[decomp/Decompiled.c:11972]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:11973]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:12021]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:12022]: (error) Uninitialized variable: local_10
+[decomp/Decompiled.c:953]: (error) Uninitialized variable: puVar2
+[decomp/Decompiled.c:2851]: (error) Uninitialized variable: puVar2
+[decomp/Decompiled.c:4449]: (error) Uninitialized variable: puVar2
+[decomp/Decompiled.c:7371]: (error) Uninitialized variable: puVar2
+[decomp/Decompiled.c:9473]: (error) Uninitialized variable: puVar2
+[decomp/Decompiled.c:11895]: (error) Uninitialized variable: puVar2

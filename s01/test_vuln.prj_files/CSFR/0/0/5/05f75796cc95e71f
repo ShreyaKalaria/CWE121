@@ -1,0 +1,295 @@
+/*
+ *      Copyright (c) 2003, an unpublished work by GrammaTech, Inc.
+ *                      ALL RIGHTS RESERVED
+ *
+ *      This software is furnished under a license and may be used and
+ *      copied only in accordance with the terms of such license and the
+ *      inclusion of the above copyright notice.  This software or any
+ *      other copies thereof may not be provided or otherwise made
+ *      available to any other person.  Title to and ownership of the
+ *      software is retained by GrammaTech, Inc.
+ */
+
+/* Include the normal string.h */
+#include_next <string.h>
+
+#ifndef _STRING_H_CSURF
+#define _STRING_H_CSURF
+
+#ifdef __cplusplus
+#define __CSURF_EXTERN_C extern "C"
+#else /* __cplusplus */
+#define __CSURF_EXTERN_C extern
+#endif /* __cplusplus */
+
+/* Make the overrides that are necessary for modeling string.h.  If
+   strlen is not a macro but is an 'extern inline' function, then this
+   will not suffice.  But macros we handle. */
+
+#ifdef __CSURF_THROW
+# error -- __CSURF_THROW is reserved for CodeSurfer internal use
+#endif /* __CSURF_THROW */
+
+/* g++ declares functions below with __THROW. We would get an
+   "omission of exception specification is incompatible with previous 
+   function" error from EDG if we don't do the same thing. */
+#ifdef __THROW
+# define __CSURF_THROW __THROW
+#else /* __THROW */
+# define __CSURF_THROW
+#endif /* __THROW */
+
+#if defined ( _WIN32 ) || defined( __CYGWIN__ )
+#define __CSURF_INCLUDE_CALLING_CONVENTION __cdecl
+#else
+#define __CSURF_INCLUDE_CALLING_CONVENTION
+#endif
+
+
+#ifdef strlen
+#hard_undef strlen
+__CSURF_EXTERN_C size_t __CSURF_INCLUDE_CALLING_CONVENTION strlen(const char *) __CSURF_THROW ;
+#endif
+
+#ifdef strcmp
+#hard_undef strcmp
+__CSURF_EXTERN_C int __CSURF_INCLUDE_CALLING_CONVENTION strcmp(const char *, const char *) __CSURF_THROW ;
+#endif
+
+#ifdef strncmp
+#hard_undef strncmp
+__CSURF_EXTERN_C int __CSURF_INCLUDE_CALLING_CONVENTION strncmp(const char *, const char *, size_t) __CSURF_THROW ;
+#endif
+
+#ifdef strcpy
+#hard_undef strcpy
+__CSURF_EXTERN_C char * __CSURF_INCLUDE_CALLING_CONVENTION strcpy(char *, const char *) __CSURF_THROW ;
+#endif
+
+#ifdef strncpy
+#hard_undef strncpy
+__CSURF_EXTERN_C char * __CSURF_INCLUDE_CALLING_CONVENTION strncpy(char *, const char *, size_t) __CSURF_THROW ;
+#endif
+
+#ifdef strcat
+#hard_undef strcat
+__CSURF_EXTERN_C char * __CSURF_INCLUDE_CALLING_CONVENTION strcat(char *, const char *) __CSURF_THROW ;
+#endif
+
+#ifdef strncat
+#hard_undef strncat
+__CSURF_EXTERN_C char * __CSURF_INCLUDE_CALLING_CONVENTION strncat(char *, const char *, size_t) __CSURF_THROW ;
+#endif
+
+#ifdef strspn
+#hard_undef strspn
+__CSURF_EXTERN_C size_t __CSURF_INCLUDE_CALLING_CONVENTION strspn(const char *, const char *) __CSURF_THROW ;
+#endif
+
+#ifdef strcspn
+#hard_undef strcspn
+__CSURF_EXTERN_C size_t __CSURF_INCLUDE_CALLING_CONVENTION strcspn(const char *, const char *) __CSURF_THROW ;
+#endif
+
+#ifdef strchr
+#hard_undef strchr
+__CSURF_EXTERN_C char * __CSURF_INCLUDE_CALLING_CONVENTION strchr(const char *, int) __CSURF_THROW ;
+#endif
+
+#ifdef strrchr
+#hard_undef strrchr
+__CSURF_EXTERN_C char * __CSURF_INCLUDE_CALLING_CONVENTION strrchr(const char *, int) __CSURF_THROW ;
+#endif
+
+/* #undef, not #hard_undef because these are common names and are only
+   BSD 4.3 routines, not ANSI. */
+#ifdef index
+#undef index
+__CSURF_EXTERN_C char * __CSURF_INCLUDE_CALLING_CONVENTION index(const char *, int) __CSURF_THROW ;
+#endif
+
+/* #undef, not #hard_undef because these are common names and are only
+   BSD 4.3 routines, not ANSI. */
+#ifdef rindex
+#undef rindex
+__CSURF_EXTERN_C char * __CSURF_INCLUDE_CALLING_CONVENTION rindex(const char *, int) __CSURF_THROW ;
+#endif
+
+#ifdef strsep
+#hard_undef strsep
+__CSURF_EXTERN_C char * __CSURF_INCLUDE_CALLING_CONVENTION strsep(char **, const char *) __CSURF_THROW ;
+#endif
+
+#ifdef strstr
+#hard_undef strstr
+
+/* In C, strstr takes two consts and returns char *. In C++, there are
+   two verions, one takes one char * and one const and returns char*,
+   the other takes two consts and returns a const. 
+
+   glibc-2.9 and before has only one strstr declaration.  glibc-2.10.1
+   has two for C++ when compiling using gcc 4.4 and later. (__GLIBC__)
+   C
+   char * strstr( const char *, const char * );
+   C++
+   char * strstr( char *, const char * );
+   const char * strstr( const char *, const char * );
+
+   musl has only one as of 1.1.19 (no macro for musl)
+   char * strstr( const char *, const char * );
+
+   VC as of 8 has
+   char * strstr( char const * , char const * ); // runtime (C)
+   char const * strstr( char const * , char const * ); // runtime (C++)
+   extern "C++" char * strstr( char * const, char const * const );  // C++ VS2017
+   extern "C++" char * strstr( char *, const char * );  // C++ VS2005
+
+   bionic (__BIONIC__)
+   char * strstr( const char *, const char * ) pure;
+   extern "C++" const char * strstr( const char *, const char * ) prefer_this_overload;
+   extern "C++" char * strstr( char *, const char * ) prefer_this_overload;
+   The latter two call "char * __bionic_strstr(
+    const char *, const char *);",
+    which in turn calls strstr again.
+
+*/
+
+#if defined(__cplusplus)
+
+#if defined(__GLIBC__)
+#if ( !defined(__GNUC__) \
+      || __GNUC__ > 4                                   \
+      || ( __GNUC__ == 4 && __GNUC_MINOR__ >= 4 ) )
+
+extern "C++" char * __CSURF_INCLUDE_CALLING_CONVENTION
+strstr(char *, const char *) __CSURF_THROW ;
+
+extern "C++" const char * __CSURF_INCLUDE_CALLING_CONVENTION
+strstr(const char *, const char *) __CSURF_THROW ;
+
+#else /* !defined(__GNUC__) ... */
+
+__CSURF_EXTERN_C char * __CSURF_INCLUDE_CALLING_CONVENTION strstr(const char *, const char *) __CSURF_THROW ;
+
+#endif /* !defined(__GNUC__) ... */
+
+#elif defined(_MSC_VER)
+
+/* FIXME: Is there the guard for the library? */
+
+extern "C++" const char * __CSURF_INCLUDE_CALLING_CONVENTION
+strstr( const char *, const char *) __CSURF_THROW ;
+
+#if _MSC_VER >= 1900
+
+extern "C++" char * __CSURF_INCLUDE_CALLING_CONVENTION
+strstr(char * const, const char * const) __CSURF_THROW ;
+
+#else /* _MSC_VER >= ... */
+
+extern "C++" char * __CSURF_INCLUDE_CALLING_CONVENTION
+strstr(char *, const char *) __CSURF_THROW ;
+
+#endif /* _MSC_VER >= ... */
+
+#elif defined(__BIONIC__)
+
+extern "C++" char * __CSURF_INCLUDE_CALLING_CONVENTION
+strstr(char *, const char *) __CSURF_THROW ;
+
+extern "C++" const char * __CSURF_INCLUDE_CALLING_CONVENTION
+strstr(const char *, const char *) __CSURF_THROW ;
+
+#else /* ... */
+
+/* MUSL and other */
+__CSURF_EXTERN_C char * __CSURF_INCLUDE_CALLING_CONVENTION strstr(const char *, const char *) __CSURF_THROW ;
+
+#endif /* ... */
+
+#else /* __cplusplus ... */
+
+__CSURF_EXTERN_C char * __CSURF_INCLUDE_CALLING_CONVENTION strstr(const char *, const char *) __CSURF_THROW ;
+
+#endif /* __cplusplus ... */
+
+#endif /* ifdef strstr */
+
+#ifdef strpbrk
+#hard_undef strpbrk
+__CSURF_EXTERN_C char * __CSURF_INCLUDE_CALLING_CONVENTION strpbrk(const char *, const char *) __CSURF_THROW ;
+#endif
+
+#ifdef strdup
+#hard_undef strdup
+__CSURF_EXTERN_C char * __CSURF_INCLUDE_CALLING_CONVENTION strdup(const char *) __CSURF_THROW ;
+#endif
+
+#ifdef strndup
+#hard_undef strndup
+__CSURF_EXTERN_C char * __CSURF_INCLUDE_CALLING_CONVENTION strndup(const char *, size_t) __CSURF_THROW ;
+#endif
+
+#ifdef memmove
+#hard_undef memmove
+__CSURF_EXTERN_C void * __CSURF_INCLUDE_CALLING_CONVENTION memmove(void *, const void *, size_t) __CSURF_THROW ;
+#endif
+
+#ifdef memcpy
+#hard_undef memcpy
+__CSURF_EXTERN_C void * __CSURF_INCLUDE_CALLING_CONVENTION memcpy(void *, const void *, size_t) __CSURF_THROW ;
+#endif
+
+#ifdef memccpy
+#hard_undef memccpy
+__CSURF_EXTERN_C void * __CSURF_INCLUDE_CALLING_CONVENTION memccpy(void *, const void *, int, size_t) __CSURF_THROW ;
+#endif
+
+#ifdef memmem
+#hard_undef memmem
+__CSURF_EXTERN_C void * __CSURF_INCLUDE_CALLING_CONVENTION memmem(const void *, size_t, const void *, size_t) __CSURF_THROW ;
+#endif
+
+#ifdef bcopy
+#hard_undef bcopy
+__CSURF_EXTERN_C void __CSURF_INCLUDE_CALLING_CONVENTION bcopy(const void *, void *, size_t) __CSURF_THROW ;
+#endif
+
+#ifdef bcmp
+#hard_undef bcmp
+__CSURF_EXTERN_C int __CSURF_INCLUDE_CALLING_CONVENTION bcmp(const void *, const void *, size_t) __CSURF_THROW ;
+#endif
+
+#ifdef memset
+#hard_undef memset
+__CSURF_EXTERN_C void * __CSURF_INCLUDE_CALLING_CONVENTION memset(void *, int, size_t) __CSURF_THROW ;
+#endif
+
+#ifdef memchr
+#hard_undef memchr
+__CSURF_EXTERN_C void * __CSURF_INCLUDE_CALLING_CONVENTION memchr(const void *, int, size_t) __CSURF_THROW ;
+#endif
+
+#ifdef bzero
+#hard_undef bzero
+__CSURF_EXTERN_C void __CSURF_INCLUDE_CALLING_CONVENTION bzero(void *, size_t) __CSURF_THROW ;
+#endif
+
+#ifdef memfrob
+#hard_undef memfrob
+__CSURF_EXTERN_C void * __CSURF_INCLUDE_CALLING_CONVENTION memfrob(void *, size_t) __CSURF_THROW ;
+#endif
+
+#ifdef strtok
+#hard_undef strtok
+__CSURF_EXTERN_C char * __CSURF_INCLUDE_CALLING_CONVENTION strtok(char *, const char *) __CSURF_THROW ;
+#endif
+
+
+#undef __CSURF_INCLUDE_CALLING_CONVENTION
+#undef __CSURF_THROW
+#undef __CSURF_EXTERN_C
+#endif /* _STRING_H_CSURF */
+
+
+
